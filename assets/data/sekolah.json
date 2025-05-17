@@ -1,0 +1,2681 @@
+[
+ {
+  "id": 1,
+  "nama_sekolah": "SMAN 4 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2655,
+  "longitude": 112.7551,
+  "jumlah_peserta": 952,
+  "NPSN": "20532247"
+ },
+ {
+  "id": 2,
+  "nama_sekolah": "SMA Kristen Anak Panah",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2648,
+  "longitude": 112.7517,
+  "jumlah_peserta": 46,
+  "NPSN": "20532405"
+ },
+ {
+  "id": 3,
+  "nama_sekolah": "SMAS KATOLIK SANTA AGNES",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2577,
+  "longitude": 112.7549,
+  "jumlah_peserta": 597,
+  "NPSN": "20532138"
+ },
+ {
+  "id": 4,
+  "nama_sekolah": "SMAS KATOLIK SANTO STANISLAUS",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2607,
+  "longitude": 112.7736,
+  "jumlah_peserta": 302,
+  "NPSN": "20532139"
+ },
+ {
+  "id": 5,
+  "nama_sekolah": "SMAS KRISTEN YBPK",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2646,
+  "longitude": 112.7556,
+  "jumlah_peserta": 99,
+  "NPSN": "20532152"
+ },
+ {
+  "id": 6,
+  "nama_sekolah": "SMAS PGRI 3",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2518,
+  "longitude": 112.7739,
+  "jumlah_peserta": 75,
+  "NPSN": "20532104"
+ },
+ {
+  "id": 7,
+  "nama_sekolah": "SMAS TRI TUNGGAL 1",
+  "jenjang": "SMA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2467,
+  "longitude": 112.7657,
+  "jumlah_peserta": 142,
+  "NPSN": "20532128"
+ },
+ {
+  "id": 8,
+  "nama_sekolah": "SMK KESEHATAN BINA HUSADA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2691,
+  "longitude": 112.7597,
+  "jumlah_peserta": 351,
+  "NPSN": "20571417"
+ },
+ {
+  "id": 9,
+  "nama_sekolah": "SMK LABSCHOOL UNESA 1",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2558,
+  "longitude": 112.756,
+  "jumlah_peserta": 288,
+  "NPSN": "20532191"
+ },
+ {
+  "id": 10,
+  "nama_sekolah": "SMK UNGGULAN BINA INSANI",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2574,
+  "longitude": 112.7568,
+  "jumlah_peserta": 25,
+  "NPSN": "69987927"
+ },
+ {
+  "id": 11,
+  "nama_sekolah": "SMKS DIPONOGORO SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2487,
+  "longitude": 112.7614,
+  "jumlah_peserta": 88,
+  "NPSN": "20532185"
+ },
+ {
+  "id": 12,
+  "nama_sekolah": "SMKS INDO BARUNA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2466,
+  "longitude": 112.7657,
+  "jumlah_peserta": 146,
+  "NPSN": "20532192"
+ },
+ {
+  "id": 13,
+  "nama_sekolah": "SMKS KATOLIK MATER AMABILIS SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2552,
+  "longitude": 112.7554,
+  "jumlah_peserta": 278,
+  "NPSN": "20532177"
+ },
+ {
+  "id": 14,
+  "nama_sekolah": "SMKS PGRI 6 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2392,
+  "longitude": 112.7647,
+  "jumlah_peserta": 682,
+  "NPSN": "20539251"
+ },
+ {
+  "id": 15,
+  "nama_sekolah": "SMKS TRITUNGGAL SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2464,
+  "longitude": 112.7658,
+  "jumlah_peserta": 432,
+  "NPSN": "20532705"
+ },
+ {
+  "id": 16,
+  "nama_sekolah": "MAS TAHSINUL AKHLAQ BAHRUL ULUM",
+  "jenjang": "MA",
+  "kecamatan": "Tambaksari",
+  "latitude": -7.2461,
+  "longitude": 112.7619,
+  "jumlah_peserta": 178,
+  "NPSN": "20580756"
+ },
+ {
+  "id": 17,
+  "nama_sekolah": "SMAN 20 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3076,
+  "longitude": 112.7896,
+  "jumlah_peserta": 1081,
+  "NPSN": "20532231"
+ },
+ {
+  "id": 18,
+  "nama_sekolah": "SMA ISLAM TERPADU AL USWAH",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2899,
+  "longitude": 112.752,
+  "jumlah_peserta": 355,
+  "NPSN": "69786332"
+ },
+ {
+  "id": 19,
+  "nama_sekolah": "SMA KRISTEN ANAK BANGSA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2901,
+  "longitude": 112.7662,
+  "jumlah_peserta": 45,
+  "NPSN": "69831503"
+ },
+ {
+  "id": 20,
+  "nama_sekolah": "SMA LITTLE SUN",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.29,
+  "longitude": 112.7685,
+  "jumlah_peserta": 166,
+  "NPSN": "20532451"
+ },
+ {
+  "id": 21,
+  "nama_sekolah": "SMA VITA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2888,
+  "longitude": 112.7893,
+  "jumlah_peserta": 77,
+  "NPSN": "20577229"
+ },
+ {
+  "id": 22,
+  "nama_sekolah": "SMAS 17 AGUSTUS 1945",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.298,
+  "longitude": 112.7688,
+  "jumlah_peserta": 580,
+  "NPSN": "20532451"
+ },
+ {
+  "id": 23,
+  "nama_sekolah": "SMAS ALAM INSAN MULIA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3075,
+  "longitude": 112.7875,
+  "jumlah_peserta": 120,
+  "NPSN": "69756322"
+ },
+ {
+  "id": 24,
+  "nama_sekolah": "SMAS DR SOETOMO",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2989,
+  "longitude": 112.7642,
+  "jumlah_peserta": 653,
+  "NPSN": "20532387"
+ },
+ {
+  "id": 25,
+  "nama_sekolah": "SMAS GIKI 3 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2874,
+  "longitude": 112.7756,
+  "jumlah_peserta": 154,
+  "NPSN": "20532404"
+ },
+ {
+  "id": 26,
+  "nama_sekolah": "SMAS KATOLIK SANTO HENDRIKUS",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2899,
+  "longitude": 112.7779,
+  "jumlah_peserta": 354,
+  "NPSN": "20532089"
+ },
+ {
+  "id": 27,
+  "nama_sekolah": "SMAS YAPITA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2899,
+  "longitude": 112.7973,
+  "jumlah_peserta": 48,
+  "NPSN": "20539244"
+ },
+ {
+  "id": 28,
+  "nama_sekolah": "SMKN 10 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2927,
+  "longitude": 112.8009,
+  "jumlah_peserta": 2565,
+  "NPSN": "20532204"
+ },
+ {
+  "id": 29,
+  "nama_sekolah": "SMK ADHIKAWACANA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.293,
+  "longitude": 112.7999,
+  "jumlah_peserta": 816,
+  "NPSN": "20532258"
+ },
+ {
+  "id": 30,
+  "nama_sekolah": "SMK KESEHATAN SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3086,
+  "longitude": 112.7837,
+  "jumlah_peserta": 446,
+  "NPSN": "20568499"
+ },
+ {
+  "id": 31,
+  "nama_sekolah": "SMK UNITOMO SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2905,
+  "longitude": 112.7674,
+  "jumlah_peserta": 573,
+  "NPSN": "60726708"
+ },
+ {
+  "id": 32,
+  "nama_sekolah": "SMKS 17 AGUSTUS 1945 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.2997,
+  "longitude": 112.7668,
+  "jumlah_peserta": 738,
+  "NPSN": "20532266"
+ },
+ {
+  "id": 33,
+  "nama_sekolah": "SMKS PRAPANCA 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3079,
+  "longitude": 112.7733,
+  "jumlah_peserta": 48,
+  "NPSN": "20532691"
+ },
+ {
+  "id": 34,
+  "nama_sekolah": "SMKS PRAPANCA 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3084,
+  "longitude": 112.7729,
+  "jumlah_peserta": 63,
+  "NPSN": "20532690"
+ },
+ {
+  "id": 35,
+  "nama_sekolah": "SMKS YESTA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukolilo",
+  "latitude": -7.3012,
+  "longitude": 112.7692,
+  "jumlah_peserta": 50,
+  "NPSN": "20532696"
+ },
+ {
+  "id": 36,
+  "nama_sekolah": "SMA NATION STAR ACADEMY",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2768,
+  "longitude": 112.7716,
+  "jumlah_peserta": 287,
+  "NPSN": "20532129"
+ },
+ {
+  "id": 37,
+  "nama_sekolah": "SMAS MUHAMMADIYAH 2",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2839,
+  "longitude": 112.7592,
+  "jumlah_peserta": 1106,
+  "NPSN": "20532163"
+ },
+ {
+  "id": 38,
+  "nama_sekolah": "SMAS MAHARDHIKA SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.3027,
+  "longitude": 112.7604,
+  "jumlah_peserta": 98,
+  "NPSN": "20532168"
+ },
+ {
+  "id": 39,
+  "nama_sekolah": "SMAS MARYAM",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2813,
+  "longitude": 112.7615,
+  "jumlah_peserta": 124,
+  "NPSN": "20532170"
+ },
+ {
+  "id": 40,
+  "nama_sekolah": "SMKS DR SOETOMO SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2733,
+  "longitude": 112.7633,
+  "jumlah_peserta": 1360,
+  "NPSN": "20532186"
+ },
+ {
+  "id": 41,
+  "nama_sekolah": "SMKS GANESYA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2902,
+  "longitude": 112.7649,
+  "jumlah_peserta": 68,
+  "NPSN": "20532188"
+ },
+ {
+  "id": 42,
+  "nama_sekolah": "SMKS PARIWISATA SATYA WIDYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2678,
+  "longitude": 112.7542,
+  "jumlah_peserta": 497,
+  "NPSN": "20532200"
+ },
+ {
+  "id": 43,
+  "nama_sekolah": "SMKS MAHARDHIKA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.3027,
+  "longitude": 112.7603,
+  "jumlah_peserta": 653,
+  "NPSN": "20532206"
+ },
+ {
+  "id": 44,
+  "nama_sekolah": "SMKS METRIKA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2831,
+  "longitude": 112.7553,
+  "jumlah_peserta": 21,
+  "NPSN": "20532208"
+ },
+ {
+  "id": 45,
+  "nama_sekolah": "SMKN 5 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2662,
+  "longitude": 112.7689,
+  "jumlah_peserta": 2701,
+  "NPSN": "20532211"
+ },
+ {
+  "id": 46,
+  "nama_sekolah": "SMAN 16 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tenggilis Mejoyo",
+  "latitude": -7.3101,
+  "longitude": 112.7596,
+  "jumlah_peserta": 1154,
+  "NPSN": "20532236"
+ },
+ {
+  "id": 47,
+  "nama_sekolah": "SMKS BERDIKARI 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2653,
+  "longitude": 112.7629,
+  "jumlah_peserta": 203,
+  "NPSN": "20532252"
+ },
+ {
+  "id": 48,
+  "nama_sekolah": "SMKS 45 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2727,
+  "longitude": 112.7643,
+  "jumlah_peserta": 513,
+  "NPSN": "20532267"
+ },
+ {
+  "id": 49,
+  "nama_sekolah": "SMAS DAPENA 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2747,
+  "longitude": 112.7448,
+  "jumlah_peserta": 20,
+  "NPSN": "20532370"
+ },
+ {
+  "id": 50,
+  "nama_sekolah": "SMAS KERTAJAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2789,
+  "longitude": 112.7504,
+  "jumlah_peserta": 52,
+  "NPSN": "20532371"
+ },
+ {
+  "id": 51,
+  "nama_sekolah": "SMAS DHARMA WANITA SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Tenggilis Mejoyo",
+  "latitude": -7.325,
+  "longitude": 112.7465,
+  "jumlah_peserta": 361,
+  "NPSN": "20532373"
+ },
+ {
+  "id": 52,
+  "nama_sekolah": "SMAS GALUH HANDAYANI",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2814,
+  "longitude": 112.7598,
+  "jumlah_peserta": 32,
+  "NPSN": "20532399"
+ },
+ {
+  "id": 53,
+  "nama_sekolah": "SMAS GIKI 2",
+  "jenjang": "SMA",
+  "kecamatan": "Gubeng",
+  "latitude": -7.2739,
+  "longitude": 112.7472,
+  "jumlah_peserta": 589,
+  "NPSN": "20532403"
+ },
+ {
+  "id": 54,
+  "nama_sekolah": "SMKS AL ISLAH SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gunung Anyar",
+  "latitude": -7.333,
+  "longitude": 112.7691,
+  "jumlah_peserta": 266,
+  "NPSN": "20541318"
+ },
+ {
+  "id": 55,
+  "nama_sekolah": "SMK AL-AMIN",
+  "jenjang": "SMK",
+  "kecamatan": "Gunung Anyar",
+  "latitude": -7.3347,
+  "longitude": 112.7695,
+  "jumlah_peserta": 179,
+  "NPSN": "20584024"
+ },
+ {
+  "id": 56,
+  "nama_sekolah": "SMK SAFINDA",
+  "jenjang": "SMK",
+  "kecamatan": "Gunung Anyar",
+  "latitude": -7.3341,
+  "longitude": 112.7671,
+  "jumlah_peserta": 23,
+  "NPSN": "70048583"
+ },
+ {
+  "id": 57,
+  "nama_sekolah": "SMAS TARUNA SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.332891,
+  "longitude": 112.781632,
+  "jumlah_peserta": 32,
+  "NPSN": "20532124"
+ },
+ {
+  "id": 58,
+  "nama_sekolah": "SMAN 14 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.317603,
+  "longitude": 112.778472,
+  "jumlah_peserta": 935,
+  "NPSN": "20532238"
+ },
+ {
+  "id": 59,
+  "nama_sekolah": "SMAN 17 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.320376,
+  "longitude": 112.784591,
+  "jumlah_peserta": 991,
+  "NPSN": "20532217"
+ },
+ {
+  "id": 60,
+  "nama_sekolah": "SMKS PERDANA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Rungkut",
+  "latitude": -7.329845,
+  "longitude": 112.780123,
+  "jumlah_peserta": 113,
+  "NPSN": "20532214"
+ },
+ {
+  "id": 61,
+  "nama_sekolah": "MAN KOTA SURABAYA",
+  "jenjang": "MA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.325712,
+  "longitude": 112.782345,
+  "jumlah_peserta": 1192,
+  "NPSN": "20580755"
+ },
+ {
+  "id": 62,
+  "nama_sekolah": "MAS NURUL KHOIR",
+  "jenjang": "MA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.327501,
+  "longitude": 112.788056,
+  "jumlah_peserta": 39,
+  "NPSN": "20584173"
+ },
+ {
+  "id": 63,
+  "nama_sekolah": "SMAS MUHAMMADIYAH 7",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.273264,
+  "longitude": 112.783415,
+  "jumlah_peserta": 255,
+  "NPSN": "20532154"
+ },
+ {
+  "id": 64,
+  "nama_sekolah": "SMAS KRISTEN GLORIA 2 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.268593,
+  "longitude": 112.781022,
+  "jumlah_peserta": 746,
+  "NPSN": "20570825"
+ },
+ {
+  "id": 65,
+  "nama_sekolah": "SMAS LUQMAN AL HAKIM",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.271845,
+  "longitude": 112.778932,
+  "jumlah_peserta": 216,
+  "NPSN": "20532167"
+ },
+ {
+  "id": 66,
+  "nama_sekolah": "SMAS KRISTEN PETRA 2 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.266712,
+  "longitude": 112.785641,
+  "jumlah_peserta": 991,
+  "NPSN": "20532136"
+ },
+ {
+  "id": 67,
+  "nama_sekolah": "SMAS IPIEMS",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.269378,
+  "longitude": 112.776543,
+  "jumlah_peserta": 536,
+  "NPSN": "20532389"
+ },
+ {
+  "id": 68,
+  "nama_sekolah": "SMAS HIDAYATUL UMMAH",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.274901,
+  "longitude": 112.780214,
+  "jumlah_peserta": 84,
+  "NPSN": "20539254"
+ },
+ {
+  "id": 69,
+  "nama_sekolah": "SMA CITA HATI CHRISTIAN SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.267329,
+  "longitude": 112.782467,
+  "jumlah_peserta": 360,
+  "NPSN": "20532140"
+ },
+ {
+  "id": 70,
+  "nama_sekolah": "SMA XIN ZHONG",
+  "jenjang": "SMA",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.270456,
+  "longitude": 112.784325,
+  "jumlah_peserta": 292,
+  "NPSN": "69919595"
+ },
+ {
+  "id": 71,
+  "nama_sekolah": "SMKS PGRI 4 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.272015,
+  "longitude": 112.777689,
+  "jumlah_peserta": 919,
+  "NPSN": "20539250"
+ },
+ {
+  "id": 72,
+  "nama_sekolah": "SMK GAMA CENDEKIA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.275623,
+  "longitude": 112.779845,
+  "jumlah_peserta": 124,
+  "NPSN": "20571344"
+ },
+ {
+  "id": 73,
+  "nama_sekolah": "SMK IPIEMS",
+  "jenjang": "SMK",
+  "kecamatan": "Mulyorejo",
+  "latitude": -7.268234,
+  "longitude": 112.775432,
+  "jumlah_peserta": 576,
+  "NPSN": "20564057"
+ },
+ {
+  "id": 74,
+  "nama_sekolah": "SEKOLAH MENENGAH ATAS INTAN PERMATA HATI KAMPUS TIMUR SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.3073,
+  "longitude": 112.8023,
+  "jumlah_peserta": 42,
+  "NPSN": "20573205"
+ },
+ {
+  "id": 75,
+  "nama_sekolah": "SMAK HARVEST CENTER SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Rungkut",
+  "latitude": -7.3296,
+  "longitude": 112.7714,
+  "jumlah_peserta": 33,
+  "NPSN": "70008708"
+ },
+ {
+  "id": 76,
+  "nama_sekolah": "SMAS TRI MURTI SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2629,
+  "longitude": 112.7424,
+  "jumlah_peserta": 455,
+  "NPSN": "20532118"
+ },
+ {
+  "id": 77,
+  "nama_sekolah": "SMAN 6 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.263413,
+  "longitude": 112.74442,
+  "jumlah_peserta": 912,
+  "NPSN": "20532260"
+ },
+ {
+  "id": 78,
+  "nama_sekolah": "SMAK HAPPY FAMILY SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.267339,
+  "longitude": 112.74379,
+  "jumlah_peserta": 65,
+  "NPSN": "70009002"
+ },
+ {
+  "id": 79,
+  "nama_sekolah": "SMA MUHAMMADIYAH 10",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2579,
+  "longitude": 112.7407,
+  "jumlah_peserta": 1004,
+  "NPSN": "69900100"
+ },
+ {
+  "id": 80,
+  "nama_sekolah": "SMAS KRISTEN PETRA 3",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2494,
+  "longitude": 112.7476,
+  "jumlah_peserta": 242,
+  "NPSN": "20532172"
+ },
+ {
+  "id": 81,
+  "nama_sekolah": "SMAN 7 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.248,
+  "longitude": 112.7528,
+  "jumlah_peserta": 1023,
+  "NPSN": "20532261"
+ },
+ {
+  "id": 82,
+  "nama_sekolah": "SMAS ATMA WIDYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2477,
+  "longitude": 112.7498,
+  "jumlah_peserta": 71,
+  "NPSN": "20532382"
+ },
+ {
+  "id": 83,
+  "nama_sekolah": "SMAN 2 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.256687,
+  "longitude": 112.7495,
+  "jumlah_peserta": 1070,
+  "NPSN": "20532230"
+ },
+ {
+  "id": 84,
+  "nama_sekolah": "SMAN 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2575,
+  "longitude": 112.7495,
+  "jumlah_peserta": 834,
+  "NPSN": "20532242"
+ },
+ {
+  "id": 85,
+  "nama_sekolah": "SMAN 5 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.256799,
+  "longitude": 112.75007,
+  "jumlah_peserta": 1043,
+  "NPSN": "20532248"
+ },
+ {
+  "id": 86,
+  "nama_sekolah": "SMAN 9 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Genteng",
+  "latitude": -7.2575,
+  "longitude": 112.7502,
+  "jumlah_peserta": 1087,
+  "NPSN": "20532263"
+ },
+ {
+  "id": 87,
+  "nama_sekolah": "SMKS KESEHATAN NUSANTARA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.2623,
+  "longitude": 112.7421,
+  "jumlah_peserta": 261,
+  "NPSN": "20570577"
+ },
+ {
+  "id": 88,
+  "nama_sekolah": "SMKS RAJASA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.258,
+  "longitude": 112.7435,
+  "jumlah_peserta": 1517,
+  "NPSN": "20532681"
+ },
+ {
+  "id": 89,
+  "nama_sekolah": "SMKS BERDIKARI 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.2465,
+  "longitude": 112.752,
+  "jumlah_peserta": 40,
+  "NPSN": "20532253"
+ },
+ {
+  "id": 90,
+  "nama_sekolah": "SMKS FARMASI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.2478,
+  "longitude": 112.7502,
+  "jumlah_peserta": 407,
+  "NPSN": "20552198"
+ },
+ {
+  "id": 91,
+  "nama_sekolah": "SMKN 8 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.2531,
+  "longitude": 112.7457,
+  "jumlah_peserta": 1512,
+  "NPSN": "20532198"
+ },
+ {
+  "id": 92,
+  "nama_sekolah": "SMKS TRISILA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Genteng",
+  "latitude": -7.251,
+  "longitude": 112.7436,
+  "jumlah_peserta": 1,
+  "NPSN": "20532706"
+ },
+ {
+  "id": 93,
+  "nama_sekolah": "SMA SURABAYA GRAMMAR SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3059,
+  "longitude": 112.741,
+  "jumlah_peserta": 19,
+  "NPSN": "20532120"
+ },
+ {
+  "id": 94,
+  "nama_sekolah": "SMAN 10 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3204,
+  "longitude": 112.7407,
+  "jumlah_peserta": 1168,
+  "NPSN": "20532243"
+ },
+ {
+  "id": 95,
+  "nama_sekolah": "SMTK PELANGI KRISTUS",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3297,
+  "longitude": 112.7356,
+  "jumlah_peserta": 23,
+  "NPSN": "69888530"
+ },
+ {
+  "id": 96,
+  "nama_sekolah": "SMAS ANAJIYAH",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3295,
+  "longitude": 112.7364,
+  "jumlah_peserta": 69,
+  "NPSN": "20532380"
+ },
+ {
+  "id": 97,
+  "nama_sekolah": "SMAS KATOLIK ST CAROLUS",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3309,
+  "longitude": 112.7376,
+  "jumlah_peserta": 303,
+  "NPSN": "20532088"
+ },
+ {
+  "id": 98,
+  "nama_sekolah": "SMAS KRISTEN PETRA 5",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3301,
+  "longitude": 112.7372,
+  "jumlah_peserta": 539,
+  "NPSN": "20532137"
+ },
+ {
+  "id": 99,
+  "nama_sekolah": "SMAS BINA BANGSA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3362,
+  "longitude": 112.7328,
+  "jumlah_peserta": 46,
+  "NPSN": "20532376"
+ },
+ {
+  "id": 100,
+  "nama_sekolah": "MAS UNGGULAN AMANATUL UMMAH SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3348,
+  "longitude": 112.7328,
+  "jumlah_peserta": 2802,
+  "NPSN": "20580757"
+ },
+ {
+  "id": 101,
+  "nama_sekolah": "SMAS UNGGULAN AMANATUL UMMAH",
+  "jenjang": "SMA",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3351,
+  "longitude": 112.7394,
+  "jumlah_peserta": 1042,
+  "NPSN": "20584015"
+ },
+ {
+  "id": 102,
+  "nama_sekolah": "SMKS PGRI 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3214,
+  "longitude": 112.7387,
+  "jumlah_peserta": 813,
+  "NPSN": "20532452"
+ },
+ {
+  "id": 103,
+  "nama_sekolah": "SMKN 6 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3164,
+  "longitude": 112.7414,
+  "jumlah_peserta": 2490,
+  "NPSN": "20532212"
+ },
+ {
+  "id": 104,
+  "nama_sekolah": "SMKS PGRI 13 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3088,
+  "longitude": 112.7521,
+  "jumlah_peserta": 775,
+  "NPSN": "20532685"
+ },
+ {
+  "id": 105,
+  "nama_sekolah": "SMKS KRISTEN PETRA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3296,
+  "longitude": 112.7362,
+  "jumlah_peserta": 635,
+  "NPSN": "20532194"
+ },
+ {
+  "id": 106,
+  "nama_sekolah": "SMK NEGERI 12 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonocolo",
+  "latitude": -7.3406,
+  "longitude": 112.74,
+  "jumlah_peserta": 2317,
+  "NPSN": "20532210"
+ },
+ {
+  "id": 107,
+  "nama_sekolah": "SMAS SHAFTA SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.284,
+  "longitude": 112.6662,
+  "jumlah_peserta": 163,
+  "NPSN": "20532107"
+ },
+ {
+  "id": 108,
+  "nama_sekolah": "SMA CIKAL",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2824,
+  "longitude": 112.6639,
+  "jumlah_peserta": 46,
+  "NPSN": "20532164"
+ },
+ {
+  "id": 109,
+  "nama_sekolah": "SMA MARGIE",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2809,
+  "longitude": 112.656,
+  "jumlah_peserta": 46,
+  "NPSN": "20561783"
+ },
+ {
+  "id": 110,
+  "nama_sekolah": "MAS AR-ROSYID",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2841,
+  "longitude": 112.6688,
+  "jumlah_peserta": 67,
+  "NPSN": "20584168"
+ },
+ {
+  "id": 111,
+  "nama_sekolah": "SMA SURABAYA EUROPEAN SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2942,
+  "longitude": 112.666,
+  "jumlah_peserta": 20,
+  "NPSN": "69873972"
+ },
+ {
+  "id": 112,
+  "nama_sekolah": "SMA ISLAM AL MIZAN",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2698,
+  "longitude": 112.671,
+  "jumlah_peserta": 151,
+  "NPSN": "69899828"
+ },
+ {
+  "id": 113,
+  "nama_sekolah": "SMA JAC SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2742,
+  "longitude": 112.6786,
+  "jumlah_peserta": 87,
+  "NPSN": "69952952"
+ },
+ {
+  "id": 114,
+  "nama_sekolah": "UTTAMA DHAMMASEKHA METTA SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.279211,
+  "longitude": 112.675136,
+  "jumlah_peserta": 32,
+  "NPSN": "70037875"
+ },
+ {
+  "id": 115,
+  "nama_sekolah": "SMAS SURABAYA TAIPEI SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2847,
+  "longitude": 112.6251,
+  "jumlah_peserta": 16,
+  "NPSN": "20577828"
+ },
+ {
+  "id": 116,
+  "nama_sekolah": "SMA KRISTEN MASA DEPAN CERAH",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2732,
+  "longitude": 112.6575,
+  "jumlah_peserta": 155,
+  "NPSN": "20573071"
+ },
+ {
+  "id": 117,
+  "nama_sekolah": "SMA SURABAYA CAMBRIDGE SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2704,
+  "longitude": 112.6608,
+  "jumlah_peserta": 244,
+  "NPSN": "69955544"
+ },
+ {
+  "id": 118,
+  "nama_sekolah": "SMKS TAMAN SISWA",
+  "jenjang": "SMK",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2641,
+  "longitude": 112.6732,
+  "jumlah_peserta": 303,
+  "NPSN": "20577829"
+ },
+ {
+  "id": 119,
+  "nama_sekolah": "SMK KRISTEN HARAPAN SEJATI",
+  "jenjang": "SMK",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.281349,
+  "longitude": 112.67514,
+  "jumlah_peserta": 434,
+  "NPSN": "69873564"
+ },
+ {
+  "id": 120,
+  "nama_sekolah": "SMK NEGERI 13 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2641,
+  "longitude": 112.6732,
+  "jumlah_peserta": 399,
+  "NPSN": "69989459"
+ },
+ {
+  "id": 121,
+  "nama_sekolah": "SMK UNGGULAN TERPADU",
+  "jenjang": "SMK",
+  "kecamatan": "Sambikerep",
+  "latitude": -7.2685,
+  "longitude": 112.6597,
+  "jumlah_peserta": 443,
+  "NPSN": "69768273"
+ },
+ {
+  "id": 122,
+  "nama_sekolah": "SMAS WACHID HASYIM 5",
+  "jenjang": "SMA",
+  "kecamatan": "Benowo",
+  "latitude": -7.2452,
+  "longitude": 112.6354,
+  "jumlah_peserta": 643,
+  "NPSN": "20532109"
+ },
+ {
+  "id": 123,
+  "nama_sekolah": "SMAN 12 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Benowo",
+  "latitude": -7.242479,
+  "longitude": 112.6365,
+  "jumlah_peserta": 1118,
+  "NPSN": "20532245"
+ },
+ {
+  "id": 124,
+  "nama_sekolah": "MAS AL FATICH",
+  "jenjang": "SMA",
+  "kecamatan": "Benowo",
+  "latitude": -7.2103,
+  "longitude": 112.6524,
+  "jumlah_peserta": 270,
+  "NPSN": "20584167"
+ },
+ {
+  "id": 125,
+  "nama_sekolah": "SMKS WACHID HASYIM 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Benowo",
+  "latitude": -7.2468,
+  "longitude": 112.6347,
+  "jumlah_peserta": 1313,
+  "NPSN": "20573861"
+ },
+ {
+  "id": 126,
+  "nama_sekolah": "SMAS TANWIR SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Asemrowo",
+  "latitude": -7.2483,
+  "longitude": 112.712,
+  "jumlah_peserta": 87,
+  "NPSN": "20532122"
+ },
+ {
+  "id": 127,
+  "nama_sekolah": "MAS BAITUR ROHMAN",
+  "jenjang": "SMA",
+  "kecamatan": "Asemrowo",
+  "latitude": -7.2517,
+  "longitude": 112.7046,
+  "jumlah_peserta": 46,
+  "NPSN": "69983581"
+ },
+ {
+  "id": 128,
+  "nama_sekolah": "MA TARBIYATUS SHIBYAN",
+  "jenjang": "SMA",
+  "kecamatan": "Asemrowo",
+  "latitude": -7.250338,
+  "longitude": 112.708999,
+  "jumlah_peserta": 26,
+  "NPSN": "70030231"
+ },
+ {
+  "id": 129,
+  "nama_sekolah": "SMKS TARUNA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Asemrowo",
+  "latitude": -7.2517,
+  "longitude": 112.7135,
+  "jumlah_peserta": 408,
+  "NPSN": "20532680"
+ },
+ {
+  "id": 130,
+  "nama_sekolah": "SMAS KR PIRNGADI",
+  "jenjang": "SMA",
+  "kecamatan": "Bubutan",
+  "latitude": -7.2523,
+  "longitude": 112.7336,
+  "jumlah_peserta": 85,
+  "NPSN": "20539237"
+ },
+ {
+  "id": 131,
+  "nama_sekolah": "SMK YPPI",
+  "jenjang": "SMK",
+  "kecamatan": "Bubutan",
+  "latitude": -7.2458,
+  "longitude": 112.7425,
+  "jumlah_peserta": 64,
+  "NPSN": "69829367"
+ },
+ {
+  "id": 132,
+  "nama_sekolah": "SMKN 7 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Bubutan",
+  "latitude": -7.2514,
+  "longitude": 112.7312,
+  "jumlah_peserta": 2145,
+  "NPSN": "20532197"
+ },
+ {
+  "id": 133,
+  "nama_sekolah": "SMKS BUBUTAN",
+  "jenjang": "SMK",
+  "kecamatan": "Bubutan",
+  "latitude": -7.2505,
+  "longitude": 112.7354,
+  "jumlah_peserta": 173,
+  "NPSN": "20532256"
+ },
+ {
+  "id": 134,
+  "nama_sekolah": "SMAN 3 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Bulak",
+  "latitude": -7.2423,
+  "longitude": 112.7903,
+  "jumlah_peserta": 1224,
+  "NPSN": "20532235"
+ },
+ {
+  "id": 135,
+  "nama_sekolah": "SMKS TRI GUNA BHAKTI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Bulak",
+  "latitude": -7.2328,
+  "longitude": 112.777,
+  "jumlah_peserta": 271,
+  "NPSN": "20532693"
+ },
+ {
+  "id": 136,
+  "nama_sekolah": "SMA KRISTEN DHARMA MULYA",
+  "jenjang": "SMA",
+  "kecamatan": "Dukuh Pakis",
+  "latitude": -7.2796,
+  "longitude": 112.7088,
+  "jumlah_peserta": 214,
+  "NPSN": "20532132"
+ },
+ {
+  "id": 137,
+  "nama_sekolah": "SMA PAMARDI PUTRA",
+  "jenjang": "SMA",
+  "kecamatan": "Dukuh Pakis",
+  "latitude": -7.2925,
+  "longitude": 112.7118,
+  "jumlah_peserta": 41,
+  "NPSN": "20532158"
+ },
+ {
+  "id": 138,
+  "nama_sekolah": "SMAS KRISTEN PETRA 1",
+  "jenjang": "SMA",
+  "kecamatan": "Dukuh Pakis",
+  "latitude": -7.2916,
+  "longitude": 112.677,
+  "jumlah_peserta": 1166,
+  "NPSN": "20532135"
+ },
+ {
+  "id": 139,
+  "nama_sekolah": "SMAS KATOLIK KARITAS III",
+  "jenjang": "SMA",
+  "kecamatan": "Dukuh Pakis",
+  "latitude": -7.279,
+  "longitude": 112.6851,
+  "jumlah_peserta": 294,
+  "NPSN": "20532143"
+ },
+ {
+  "id": 140,
+  "nama_sekolah": "SMKS GIKI 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Dukuh Pakis",
+  "latitude": -7.2812,
+  "longitude": 112.7159,
+  "jumlah_peserta": 538,
+  "NPSN": "20577337"
+ },
+ {
+  "id": 141,
+  "nama_sekolah": "SMAS HANG TUAH 4 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3018,
+  "longitude": 112.7347,
+  "jumlah_peserta": 460,
+  "NPSN": "20532398"
+ },
+ {
+  "id": 142,
+  "nama_sekolah": "SMAS MUHAMMADIYAH 3 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.2987,
+  "longitude": 112.7316,
+  "jumlah_peserta": 432,
+  "NPSN": "20532162"
+ },
+ {
+  "id": 143,
+  "nama_sekolah": "SMAS BINA TARUNA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3127,
+  "longitude": 112.7353,
+  "jumlah_peserta": 39,
+  "NPSN": "20532375"
+ },
+ {
+  "id": 144,
+  "nama_sekolah": "SMAS KARTIKA IV-3 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3038,
+  "longitude": 112.7339,
+  "jumlah_peserta": 367,
+  "NPSN": "20532394"
+ },
+ {
+  "id": 145,
+  "nama_sekolah": "SMAS WIDYA DARMA",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3051,
+  "longitude": 112.7321,
+  "jumlah_peserta": 115,
+  "NPSN": "20532112"
+ },
+ {
+  "id": 146,
+  "nama_sekolah": "SMAS KHADIJAH",
+  "jenjang": "SMA",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.2995,
+  "longitude": 112.7309,
+  "jumlah_peserta": 567,
+  "NPSN": "20532141"
+ },
+ {
+  "id": 147,
+  "nama_sekolah": "SMKS TUNAS WIJAYA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3082,
+  "longitude": 112.737,
+  "jumlah_peserta": 86,
+  "NPSN": "20532710"
+ },
+ {
+  "id": 148,
+  "nama_sekolah": "SMKS WIJAYA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3075,
+  "longitude": 112.7365,
+  "jumlah_peserta": 85,
+  "NPSN": "20532702"
+ },
+ {
+  "id": 149,
+  "nama_sekolah": "SMKS FARMASI SEKESAL SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3091,
+  "longitude": 112.7401,
+  "jumlah_peserta": 141,
+  "NPSN": "20549500"
+ },
+ {
+  "id": 150,
+  "nama_sekolah": "SMKS PURUHITA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3115,
+  "longitude": 112.7392,
+  "jumlah_peserta": 0,
+  "NPSN": "20554119"
+ },
+ {
+  "id": 151,
+  "nama_sekolah": "SMKS BRAWIJAYA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3063,
+  "longitude": 112.7334,
+  "jumlah_peserta": 42,
+  "NPSN": "20532255"
+ },
+ {
+  "id": 152,
+  "nama_sekolah": "SMKS KETINTANG SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.2978,
+  "longitude": 112.7328,
+  "jumlah_peserta": 1765,
+  "NPSN": "20532180"
+ },
+ {
+  "id": 153,
+  "nama_sekolah": "SMKN 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3002,
+  "longitude": 112.7358,
+  "jumlah_peserta": 2464,
+  "NPSN": "20532205"
+ },
+ {
+  "id": 154,
+  "nama_sekolah": "SMKS WONOKROMO SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Wonokromo",
+  "latitude": -7.3045,
+  "longitude": 112.7385,
+  "jumlah_peserta": 40,
+  "NPSN": "20532695"
+ },
+ {
+  "id": 155,
+  "nama_sekolah": "SMAS BARUNAWATI",
+  "jenjang": "SMA",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.2167,
+  "longitude": 112.725,
+  "jumlah_peserta": 502,
+  "NPSN": "20532377"
+ },
+ {
+  "id": 156,
+  "nama_sekolah": "SMAS SASANA BHAKTII",
+  "jenjang": "SMA",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.2455,
+  "longitude": 112.7435,
+  "jumlah_peserta": 81,
+  "NPSN": "20532092"
+ },
+ {
+  "id": 157,
+  "nama_sekolah": "SMAS MUJAHIDIN",
+  "jenjang": "SMA",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.22,
+  "longitude": 112.73,
+  "jumlah_peserta": 212,
+  "NPSN": "20532156"
+ },
+ {
+  "id": 158,
+  "nama_sekolah": "SMKS KAL 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.218,
+  "longitude": 112.728,
+  "jumlah_peserta": 341,
+  "NPSN": "20532182"
+ },
+ {
+  "id": 159,
+  "nama_sekolah": "SMKS TEKNIK PAL SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.2195,
+  "longitude": 112.7265,
+  "jumlah_peserta": 996,
+  "NPSN": "20532692"
+ },
+ {
+  "id": 160,
+  "nama_sekolah": "SMKS BARUNAWATI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Pabean Cantian",
+  "latitude": -7.2167,
+  "longitude": 112.725,
+  "jumlah_peserta": 607,
+  "NPSN": "20539249"
+ },
+ {
+  "id": 161,
+  "nama_sekolah": "SMAS SEJAHTERA 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.267,
+  "longitude": 112.707,
+  "jumlah_peserta": 503,
+  "NPSN": "20532094"
+ },
+ {
+  "id": 162,
+  "nama_sekolah": "SMAS KRISTEN KALAM KUDUS",
+  "jenjang": "SMA",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2755,
+  "longitude": 112.712,
+  "jumlah_peserta": 92,
+  "NPSN": "20532134"
+ },
+ {
+  "id": 163,
+  "nama_sekolah": "SMA KRISTEN GLORIA 1",
+  "jenjang": "SMA",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2705,
+  "longitude": 112.7015,
+  "jumlah_peserta": 411,
+  "NPSN": "20532133"
+ },
+ {
+  "id": 164,
+  "nama_sekolah": "SMKS PAWIYATAN SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2702,
+  "longitude": 112.7083,
+  "jumlah_peserta": 1,
+  "NPSN": "20532202"
+ },
+ {
+  "id": 165,
+  "nama_sekolah": "SMKS SEJAHTERA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.267,
+  "longitude": 112.707,
+  "jumlah_peserta": 503,
+  "NPSN": "20532094"
+ },
+ {
+  "id": 166,
+  "nama_sekolah": "SMKS PELAYARAN BHAKTI SAMUDERA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2685,
+  "longitude": 112.7055,
+  "jumlah_peserta": 250,
+  "NPSN": "20552202"
+ },
+ {
+  "id": 167,
+  "nama_sekolah": "SMKS KARTINI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2695,
+  "longitude": 112.703,
+  "jumlah_peserta": 388,
+  "NPSN": "20532176"
+ },
+ {
+  "id": 168,
+  "nama_sekolah": "SMKS SIANG 1 STM SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.2695,
+  "longitude": 112.703,
+  "jumlah_peserta": 526,
+  "NPSN": "20539247"
+ },
+ {
+  "id": 169,
+  "nama_sekolah": "SMK NUR MEDIKA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.27,
+  "longitude": 112.7045,
+  "jumlah_peserta": 170,
+  "NPSN": "20574720"
+ },
+ {
+  "id": 170,
+  "nama_sekolah": "SMKS PGRI 10 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.273,
+  "longitude": 112.71,
+  "jumlah_peserta": 582,
+  "NPSN": "20532671"
+ },
+ {
+  "id": 171,
+  "nama_sekolah": "MAS SUNAN KALIJOGO",
+  "jenjang": "MAS",
+  "kecamatan": "Sukomanunggal",
+  "latitude": -7.271,
+  "longitude": 112.706,
+  "jumlah_peserta": 99
+ },
+ {
+  "id": 172,
+  "nama_sekolah": "SMAS WIJAYA PUTRA",
+  "jenjang": "SMA",
+  "kecamatan": "Pakal",
+  "latitude": -7.2441,
+  "longitude": 112.6322,
+  "jumlah_peserta": 374,
+  "NPSN": "20532113"
+ },
+ {
+  "id": 173,
+  "nama_sekolah": "SMAS CITRA BERKAT",
+  "jenjang": "SMA",
+  "kecamatan": "Pakal",
+  "latitude": -7.2435,
+  "longitude": 112.624,
+  "jumlah_peserta": 344,
+  "NPSN": "69787073"
+ },
+ {
+  "id": 174,
+  "nama_sekolah": "SMAS AL AZHAR SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Pakal",
+  "latitude": -7.2441,
+  "longitude": 112.6322,
+  "jumlah_peserta": 226,
+  "NPSN": "20532378"
+ },
+ {
+  "id": 175,
+  "nama_sekolah": "SMKS WIJAYA PUTRA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Pakal",
+  "latitude": -7.2441,
+  "longitude": 112.6322,
+  "jumlah_peserta": 460,
+  "NPSN": "20532704"
+ },
+ {
+  "id": 176,
+  "nama_sekolah": "MAS IMAM SYAFII",
+  "jenjang": "MA",
+  "kecamatan": "Pakal",
+  "latitude": -7.245,
+  "longitude": 112.63,
+  "jumlah_peserta": 147,
+  "NPSN": "20584171"
+ },
+ {
+  "id": 177,
+  "nama_sekolah": "SMAN 8 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2167,
+  "longitude": 112.7283,
+  "jumlah_peserta": 1193,
+  "NPSN": "20532262"
+ },
+ {
+  "id": 178,
+  "nama_sekolah": "SMAS AL IRSYAD",
+  "jenjang": "SMA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2165,
+  "longitude": 112.7285,
+  "jumlah_peserta": 158,
+  "NPSN": "20532366"
+ },
+ {
+  "id": 179,
+  "nama_sekolah": "SMAS LIL WATON",
+  "jenjang": "SMA",
+  "kecamatan": "Semampir",
+  "latitude": -7.222,
+  "longitude": 112.735,
+  "jumlah_peserta": 68,
+  "NPSN": "20532392"
+ },
+ {
+  "id": 180,
+  "nama_sekolah": "SMK IHYAUSSALAFIYAH",
+  "jenjang": "SMK",
+  "kecamatan": "Semampir",
+  "latitude": -7.22,
+  "longitude": 112.74,
+  "jumlah_peserta": 34,
+  "NPSN": "69899477"
+ },
+ {
+  "id": 181,
+  "nama_sekolah": "SMKS ALIRSYAD SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Semampir",
+  "latitude": -7.2165,
+  "longitude": 112.7285,
+  "jumlah_peserta": 169,
+  "NPSN": "20555432"
+ },
+ {
+  "id": 182,
+  "nama_sekolah": "SMKS ISLAM AL AMAL SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Semampir",
+  "latitude": -7.223,
+  "longitude": 112.736,
+  "jumlah_peserta": 360,
+  "NPSN": "20576251"
+ },
+ {
+  "id": 183,
+  "nama_sekolah": "SMKS ARIF RAHMAN HAKIM",
+  "jenjang": "SMK",
+  "kecamatan": "Semampir",
+  "latitude": -7.224,
+  "longitude": 112.737,
+  "jumlah_peserta": 123,
+  "NPSN": "20584016"
+ },
+ {
+  "id": 184,
+  "nama_sekolah": "MAS SUNAN GIRI",
+  "jenjang": "MA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2215,
+  "longitude": 112.741,
+  "jumlah_peserta": 242,
+  "NPSN": "69941767"
+ },
+ {
+  "id": 185,
+  "nama_sekolah": "MAS IBNU HUSAIN",
+  "jenjang": "MA",
+  "kecamatan": "Semampir",
+  "latitude": -7.221,
+  "longitude": 112.7405,
+  "jumlah_peserta": 125,
+  "NPSN": "60728117"
+ },
+ {
+  "id": 186,
+  "nama_sekolah": "MAS ABU SYAMSUDDIN",
+  "jenjang": "MA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2212,
+  "longitude": 112.7408,
+  "jumlah_peserta": 59,
+  "NPSN": "69983582"
+ },
+ {
+  "id": 187,
+  "nama_sekolah": "MAS SUNAN AMPEL",
+  "jenjang": "MA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2303,
+  "longitude": 112.7429,
+  "jumlah_peserta": 221,
+  "NPSN": "20584174"
+ },
+ {
+  "id": 188,
+  "nama_sekolah": "MAS PLUS NURUL SALAM",
+  "jenjang": "MA",
+  "kecamatan": "Semampir",
+  "latitude": -7.2225,
+  "longitude": 112.7415,
+  "jumlah_peserta": 81,
+  "NPSN": "70010114"
+ },
+ {
+  "id": 189,
+  "nama_sekolah": "SMAS SANTA MARIA",
+  "jenjang": "SMA",
+  "kecamatan": "Tegalsari",
+  "latitude": -7.2837,
+  "longitude": 112.7406,
+  "jumlah_peserta": 506,
+  "NPSN": "20532087"
+ },
+ {
+  "id": 190,
+  "nama_sekolah": "SMA KATOLIK ST.LOUIS 1",
+  "jenjang": "SMA",
+  "kecamatan": "Tegalsari",
+  "latitude": -7.2802,
+  "longitude": 112.7432,
+  "jumlah_peserta": 1328,
+  "NPSN": "20532145"
+ },
+ {
+  "id": 191,
+  "nama_sekolah": "SMKS PGRI 5 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tegalsari",
+  "latitude": -7.2825,
+  "longitude": 112.741,
+  "jumlah_peserta": 124,
+  "NPSN": "20532688"
+ },
+ {
+  "id": 192,
+  "nama_sekolah": "SMAN 11 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Tandes",
+  "latitude": -7.27,
+  "longitude": 112.705,
+  "jumlah_peserta": 1046,
+  "NPSN": "20532244"
+ },
+ {
+  "id": 193,
+  "nama_sekolah": "SMAS TRI KARYA SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Tandes",
+  "latitude": -7.2715,
+  "longitude": 112.69,
+  "jumlah_peserta": 41,
+  "NPSN": "20532127"
+ },
+ {
+  "id": 194,
+  "nama_sekolah": "SMA SAMPOERNA (SAMPOERNA ACADEMY)",
+  "jenjang": "SMA",
+  "kecamatan": "Tandes",
+  "latitude": -7.275,
+  "longitude": 112.685,
+  "jumlah_peserta": 59,
+  "NPSN": "20532391"
+ },
+ {
+  "id": 195,
+  "nama_sekolah": "SMKS SARI PRAJA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tandes",
+  "latitude": -7.2715,
+  "longitude": 112.69,
+  "jumlah_peserta": 40,
+  "NPSN": "20532673"
+ },
+ {
+  "id": 196,
+  "nama_sekolah": "SMKS PEMBANGUNAN SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Tandes",
+  "latitude": -7.272,
+  "longitude": 112.7,
+  "jumlah_peserta": 155,
+  "NPSN": "20564064"
+ },
+ {
+  "id": 197,
+  "nama_sekolah": "SMKS DHARMA BAHARI",
+  "jenjang": "SMK",
+  "kecamatan": "Tandes",
+  "latitude": -7.2705,
+  "longitude": 112.695,
+  "jumlah_peserta": 2052,
+  "NPSN": "20541319"
+ },
+ {
+  "id": 198,
+  "nama_sekolah": "MAS SHOBRUL MA`ARIF",
+  "jenjang": "MA",
+  "kecamatan": "Tandes",
+  "latitude": -7.274,
+  "longitude": 112.683,
+  "jumlah_peserta": 23,
+  "NPSN": "60728120"
+ },
+ {
+  "id": 199,
+  "nama_sekolah": "MAS HASYIM ASY`ARI",
+  "jenjang": "MA",
+  "kecamatan": "Tandes",
+  "latitude": -7.273,
+  "longitude": 112.699,
+  "jumlah_peserta": 64,
+  "NPSN": "20584170"
+ },
+ {
+  "id": 200,
+  "nama_sekolah": "SMAS KARTIKA WIJAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Jambangan",
+  "latitude": -7.3115,
+  "longitude": 112.7195,
+  "jumlah_peserta": 187,
+  "NPSN": "20532395"
+ },
+ {
+  "id": 201,
+  "nama_sekolah": "SMAN 18 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Jambangan",
+  "latitude": -7.31,
+  "longitude": 112.717,
+  "jumlah_peserta": 847,
+  "NPSN": "20532218"
+ },
+ {
+  "id": 202,
+  "nama_sekolah": "SMAS AL HIKMAH SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Jambangan",
+  "latitude": -7.312,
+  "longitude": 112.72,
+  "jumlah_peserta": 690,
+  "NPSN": "20549721"
+ },
+ {
+  "id": 203,
+  "nama_sekolah": "SMKS KARTIKA 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Jambangan",
+  "latitude": -7.3115,
+  "longitude": 112.7195,
+  "jumlah_peserta": 340,
+  "NPSN": "20532175"
+ },
+ {
+  "id": 204,
+  "nama_sekolah": "SMKS KARTIKA 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Jambangan",
+  "latitude": -7.3115,
+  "longitude": 112.7195,
+  "jumlah_peserta": 294,
+  "NPSN": "20532174"
+ },
+ {
+  "id": 205,
+  "nama_sekolah": "SMK SAINTREN AL-HASAN",
+  "jenjang": "SMK",
+  "kecamatan": "Jambangan",
+  "latitude": -7.3125,
+  "longitude": 112.718,
+  "jumlah_peserta": 53,
+  "NPSN": "69988960"
+ },
+ {
+  "id": 206,
+  "nama_sekolah": "SMKS PGRI 3 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Jambangan",
+  "latitude": -7.313,
+  "longitude": 112.7165,
+  "jumlah_peserta": 88,
+  "NPSN": "20532687"
+ },
+ {
+  "id": 207,
+  "nama_sekolah": "MA ALIF LAAM MIIM SURABAYA",
+  "jenjang": "MA",
+  "kecamatan": "Jambangan",
+  "latitude": -7.314,
+  "longitude": 112.721,
+  "jumlah_peserta": 67,
+  "NPSN": "70027712"
+ },
+ {
+  "id": 208,
+  "nama_sekolah": "SMAN 22 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wiyung",
+  "latitude": -7.306,
+  "longitude": 112.7614,
+  "jumlah_peserta": 1043,
+  "NPSN": "20532233"
+ },
+ {
+  "id": 209,
+  "nama_sekolah": "SMA Muhammadiyah 9",
+  "jenjang": "SMA",
+  "kecamatan": "Wiyung",
+  "latitude": -7.3118,
+  "longitude": 112.7093,
+  "jumlah_peserta": 98,
+  "NPSN": "69786333"
+ },
+ {
+  "id": 210,
+  "nama_sekolah": "SMA SPINS INTERACTIONAL SCHOOL SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Wiyung",
+  "latitude": -7.317208,
+  "longitude": 112.696974,
+  "jumlah_peserta": 151,
+  "NPSN": "69882345"
+ },
+ {
+  "id": 211,
+  "nama_sekolah": "SMAN 21 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2599,
+  "longitude": 112.7298,
+  "jumlah_peserta": 1071,
+  "NPSN": "20532232"
+ },
+ {
+  "id": 212,
+  "nama_sekolah": "SMA KATOLIK ST LOUIS 2",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.257,
+  "longitude": 112.7245,
+  "jumlah_peserta": 404,
+  "NPSN": "20532151"
+ },
+ {
+  "id": 213,
+  "nama_sekolah": "SMAS ADVENT",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2588,
+  "longitude": 112.7308,
+  "jumlah_peserta": 80,
+  "NPSN": "20532408"
+ },
+ {
+  "id": 214,
+  "nama_sekolah": "SMAS ANTARTIKA",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2744,
+  "longitude": 112.7238,
+  "jumlah_peserta": 98,
+  "NPSN": "20532381"
+ },
+ {
+  "id": 215,
+  "nama_sekolah": "SMAS GEMA 45",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2901,
+  "longitude": 112.721,
+  "jumlah_peserta": 183,
+  "NPSN": "20532401"
+ },
+ {
+  "id": 216,
+  "nama_sekolah": "SMAS GIKI 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.276,
+  "longitude": 112.7111,
+  "jumlah_peserta": 559,
+  "NPSN": "20532402"
+ },
+ {
+  "id": 217,
+  "nama_sekolah": "SMAS KAWUNG 2 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2706,
+  "longitude": 112.7115,
+  "jumlah_peserta": 72,
+  "NPSN": "20532148"
+ },
+ {
+  "id": 218,
+  "nama_sekolah": "SMKN 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2584,
+  "longitude": 112.7256,
+  "jumlah_peserta": 2757,
+  "NPSN": "20532203"
+ },
+ {
+  "id": 219,
+  "nama_sekolah": "SMKN 4 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2563,
+  "longitude": 112.7302,
+  "jumlah_peserta": 1146,
+  "NPSN": "20532196"
+ },
+ {
+  "id": 220,
+  "nama_sekolah": "SMKS ANTARTIKA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2744,
+  "longitude": 112.7238,
+  "jumlah_peserta": 786,
+  "NPSN": "20532257"
+ },
+ {
+  "id": 221,
+  "nama_sekolah": "SMKS BAHRUL ULUM",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2757,
+  "longitude": 112.7205,
+  "jumlah_peserta": 188,
+  "NPSN": "20570572"
+ },
+ {
+  "id": 222,
+  "nama_sekolah": "SMKS GEMA 45 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2901,
+  "longitude": 112.7224,
+  "jumlah_peserta": 288,
+  "NPSN": "20532190"
+ },
+ {
+  "id": 223,
+  "nama_sekolah": "SMKS KATOLIK ST LOUIS",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2576,
+  "longitude": 112.7215,
+  "jumlah_peserta": 649,
+  "NPSN": "20532677"
+ },
+ {
+  "id": 224,
+  "nama_sekolah": "SMKS KAWUNG 2 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2706,
+  "longitude": 112.7118,
+  "jumlah_peserta": 194,
+  "NPSN": "20532179"
+ },
+ {
+  "id": 225,
+  "nama_sekolah": "SMKS TANWIR SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Sawahan",
+  "latitude": -7.2652,
+  "longitude": 112.7247,
+  "jumlah_peserta": 297,
+  "NPSN": "20564065"
+ },
+ {
+  "id": 226,
+  "nama_sekolah": "SMA TERPADU YPP NURUL HUDA",
+  "jenjang": "SMA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2417,
+  "longitude": 112.7528,
+  "jumlah_peserta": 164,
+  "NPSN": "20539242"
+ },
+ {
+  "id": 227,
+  "nama_sekolah": "SMAS MUHAMMADIYAH 1",
+  "jenjang": "SMA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2396,
+  "longitude": 112.7498,
+  "jumlah_peserta": 442,
+  "NPSN": "20532171"
+ },
+ {
+  "id": 228,
+  "nama_sekolah": "SMAS YP 17 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2273,
+  "longitude": 112.7581,
+  "jumlah_peserta": 122,
+  "NPSN": "20532115"
+ },
+ {
+  "id": 229,
+  "nama_sekolah": "SMAS YPPI 2 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2417,
+  "longitude": 112.7528,
+  "jumlah_peserta": 122,
+  "NPSN": "20532216"
+ },
+ {
+  "id": 230,
+  "nama_sekolah": "SMKS ABI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2393,
+  "longitude": 112.7453,
+  "jumlah_peserta": 306,
+  "NPSN": "20532259"
+ },
+ {
+  "id": 231,
+  "nama_sekolah": "SMKS MUHAMMADIYAH 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2399,
+  "longitude": 112.7498,
+  "jumlah_peserta": 652,
+  "NPSN": "20532209"
+ },
+ {
+  "id": 232,
+  "nama_sekolah": "SMKS TRIYASA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2459,
+  "longitude": 112.7543,
+  "jumlah_peserta": 214,
+  "NPSN": "20532708"
+ },
+ {
+  "id": 233,
+  "nama_sekolah": "MAS HASANUDDIN",
+  "jenjang": "MA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2367,
+  "longitude": 112.7515,
+  "jumlah_peserta": 119,
+  "NPSN": "60728118"
+ },
+ {
+  "id": 234,
+  "nama_sekolah": "MAS MIFTAHUL ULUM",
+  "jenjang": "MA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.233532,
+  "longitude": 112.74916,
+  "jumlah_peserta": 98,
+  "NPSN": "70010148"
+ },
+ {
+  "id": 235,
+  "nama_sekolah": "MAS DARUSSALAM",
+  "jenjang": "MA",
+  "kecamatan": "Simokerto",
+  "latitude": -7.2467,
+  "longitude": 112.7558,
+  "jumlah_peserta": 151,
+  "NPSN": "20584169"
+ },
+ {
+  "id": 236,
+  "nama_sekolah": "SMAN 15 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Gayungan",
+  "latitude": -7.3415,
+  "longitude": 112.7186,
+  "jumlah_peserta": 1283,
+  "NPSN": "20532237"
+ },
+ {
+  "id": 237,
+  "nama_sekolah": "SMAS AL FALAH",
+  "jenjang": "SMA",
+  "kecamatan": "Gayungan",
+  "latitude": -7.313,
+  "longitude": 112.7238,
+  "jumlah_peserta": 192,
+  "NPSN": "20541315"
+ },
+ {
+  "id": 238,
+  "nama_sekolah": "SMAS INTENSIF TARUNA PEMBANGUNAN",
+  "jenjang": "SMA",
+  "kecamatan": "Gayungan",
+  "latitude": -7.3445,
+  "longitude": 112.7216,
+  "jumlah_peserta": 406,
+  "NPSN": "20532388"
+ },
+ {
+  "id": 239,
+  "nama_sekolah": "SMAS KEMALA BHAYANGKARI 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Gayungan",
+  "latitude": -7.311,
+  "longitude": 112.7343,
+  "jumlah_peserta": 910,
+  "NPSN": "20532149"
+ },
+ {
+  "id": 240,
+  "nama_sekolah": "SMKN 3 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gayungan",
+  "latitude": -7.3445,
+  "longitude": 112.7297,
+  "jumlah_peserta": 1695,
+  "NPSN": "20532195"
+ },
+ {
+  "id": 241,
+  "nama_sekolah": "SMKS DHARMA BHAKTI SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Gayungan",
+  "latitude": -7.3411,
+  "longitude": 112.7246,
+  "jumlah_peserta": 44,
+  "NPSN": "20532173"
+ },
+ {
+  "id": 242,
+  "nama_sekolah": "MAS ITTAQU",
+  "jenjang": "MA",
+  "kecamatan": "Gayungan",
+  "latitude": -7.3399,
+  "longitude": 112.7241,
+  "jumlah_peserta": 67,
+  "NPSN": "20584172"
+ },
+ {
+  "id": 243,
+  "nama_sekolah": "SMAS KATOLIK SANTO YUSUP",
+  "jenjang": "SMA",
+  "kecamatan": "Karang Pilang",
+  "latitude": -7.3374,
+  "longitude": 112.6992,
+  "jumlah_peserta": 292,
+  "NPSN": "20532144"
+ },
+ {
+  "id": 244,
+  "nama_sekolah": "SMAS MUHAMMADIYAH 4 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Karang Pilang",
+  "latitude": -7.3311,
+  "longitude": 112.7043,
+  "jumlah_peserta": 294,
+  "NPSN": "20532161"
+ },
+ {
+  "id": 245,
+  "nama_sekolah": "SMK MUHAMMADIYAH 2",
+  "jenjang": "SMK",
+  "kecamatan": "Karang Pilang",
+  "latitude": -7.346,
+  "longitude": 112.668,
+  "jumlah_peserta": 162,
+  "NPSN": "20568497"
+ },
+ {
+  "id": 246,
+  "nama_sekolah": "SMK SITI AMINAH",
+  "jenjang": "SMK",
+  "kecamatan": "Karang Pilang",
+  "latitude": -7.318706,
+  "longitude": 112.70818,
+  "jumlah_peserta": 35,
+  "NPSN": "69812068"
+ },
+ {
+  "id": 247,
+  "nama_sekolah": "SMKS PGRI 14 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Karang Pilang",
+  "latitude": -7.318,
+  "longitude": 112.7102,
+  "jumlah_peserta": 47,
+  "NPSN": "20532686"
+ },
+ {
+  "id": 248,
+  "nama_sekolah": "SMAN 19 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Kenjeran",
+  "latitude": -7.2208,
+  "longitude": 112.7776,
+  "jumlah_peserta": 1239,
+  "NPSN": "20532219"
+ },
+ {
+  "id": 249,
+  "nama_sekolah": "SMAS WACHID HASYIM 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Kenjeran",
+  "latitude": -7.233,
+  "longitude": 112.7599,
+  "jumlah_peserta": 655,
+  "NPSN": "20532108"
+ },
+ {
+  "id": 250,
+  "nama_sekolah": "SMKS PUTRA AIRLANGGA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Kenjeran",
+  "latitude": -7.2336,
+  "longitude": 112.7649,
+  "jumlah_peserta": 113,
+  "NPSN": "20532682"
+ },
+ {
+  "id": 251,
+  "nama_sekolah": "SMKS WACHID HASYIM SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Kenjeran",
+  "latitude": -7.233,
+  "longitude": 112.76,
+  "jumlah_peserta": 1248,
+  "NPSN": "20532711"
+ },
+ {
+  "id": 252,
+  "nama_sekolah": "MA DARUT TAUHID",
+  "jenjang": "MA",
+  "kecamatan": "Kenjeran",
+  "latitude": -7.221446,
+  "longitude": 112.76404,
+  "jumlah_peserta": 128,
+  "NPSN": "70027505"
+ },
+ {
+  "id": 253,
+  "nama_sekolah": "SMAS HANG TUAH 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -7.231,
+  "longitude": 112.7225,
+  "jumlah_peserta": 824,
+  "NPSN": "20532406"
+ },
+ {
+  "id": 254,
+  "nama_sekolah": "SMAS KATOLIK FRATERAN",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -7.2415,
+  "longitude": 112.7363,
+  "jumlah_peserta": 494,
+  "NPSN": "20532131"
+ },
+ {
+  "id": 255,
+  "nama_sekolah": "SMAS KATOLIK STELLA MARIS",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -7.2399,
+  "longitude": 112.732,
+  "jumlah_peserta": 324,
+  "NPSN": "20532146"
+ },
+ {
+  "id": 256,
+  "nama_sekolah": "SMAS KAWUNG 1 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -7.2372,
+  "longitude": 112.7303,
+  "jumlah_peserta": 103,
+  "NPSN": "20532147"
+ },
+ {
+  "id": 257,
+  "nama_sekolah": "SMAS KEMALA BHAYANGKARI 2",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -7.2347,
+  "longitude": 112.71,
+  "jumlah_peserta": 115,
+  "NPSN": "20532150"
+ },
+ {
+  "id": 258,
+  "nama_sekolah": "SMAS TAMIRIYAH SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Krembangan",
+  "latitude": -72.428,
+  "longitude": 112.735,
+  "jumlah_peserta": 350,
+  "NPSN": "20532125"
+ },
+ {
+  "id": 259,
+  "nama_sekolah": "SMKS KAL 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Krembangan",
+  "latitude": -72.212,
+  "longitude": 112.714,
+  "jumlah_peserta": 662,
+  "NPSN": "20532183"
+ },
+ {
+  "id": 260,
+  "nama_sekolah": "SMKS KAWUNG 1 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Krembangan",
+  "latitude": -72.372,
+  "longitude": 112.73,
+  "jumlah_peserta": 339,
+  "NPSN": "20532178"
+ },
+ {
+  "id": 261,
+  "nama_sekolah": "SMAN 13 SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.3072,
+  "longitude": 112.6628,
+  "jumlah_peserta": 1132,
+  "NPSN": "20532246"
+ },
+ {
+  "id": 262,
+  "nama_sekolah": "SMA LABSCHOOL UNESA 1",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.2998,
+  "longitude": 112.6642,
+  "jumlah_peserta": 392,
+  "NPSN": "20532368"
+ },
+ {
+  "id": 263,
+  "nama_sekolah": "SMAS MIMI SURABAYA",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.3,
+  "longitude": 112.6505,
+  "jumlah_peserta": 46,
+  "NPSN": "20566343"
+ },
+ {
+  "id": 264,
+  "nama_sekolah": "SMA CITA HATI CHRISTIAN SCHOOL WEST",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.2795,
+  "longitude": 112.808,
+  "jumlah_peserta": 298,
+  "NPSN": "60725637"
+ },
+ {
+  "id": 265,
+  "nama_sekolah": "SMA SURABAYA INTERCULTURAL SCHOOL",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.290216,
+  "longitude": 112.649,
+  "jumlah_peserta": 40,
+  "NPSN": "69849923"
+ },
+ {
+  "id": 266,
+  "nama_sekolah": "SMAS CIPUTRA",
+  "jenjang": "SMA",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.293,
+  "longitude": 112.651,
+  "jumlah_peserta": 362,
+  "NPSN": "20549499"
+ },
+ {
+  "id": 267,
+  "nama_sekolah": "SMKS PGRI 7 SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.307,
+  "longitude": 112.666,
+  "jumlah_peserta": 134,
+  "NPSN": "20532689"
+ },
+ {
+  "id": 268,
+  "nama_sekolah": "SMKS WAHANA KARYA SURABAYA",
+  "jenjang": "SMK",
+  "kecamatan": "Lakarsantri",
+  "latitude": -7.323,
+  "longitude": 112.657,
+  "jumlah_peserta": 223,
+  "NPSN": "20532712"
+ }
+]

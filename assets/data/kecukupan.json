@@ -1,0 +1,250 @@
+[
+ {
+  "kecamatan": "Gubeng",
+  "penduduk_16_18": 6330,
+  "total_peserta": 8324,
+  "persen_kecukupan": 131.51,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Gunung Anyar",
+  "penduduk_16_18": 2783,
+  "total_peserta": 468,
+  "persen_kecukupan": 16.81,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Mulyorejo",
+  "penduduk_16_18": 4087,
+  "total_peserta": 5099,
+  "persen_kecukupan": 124.8,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Rungkut",
+  "penduduk_16_18": 5478,
+  "total_peserta": 3377,
+  "persen_kecukupan": 61.6,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Sukolilo",
+  "penduduk_16_18": 5315,
+  "total_peserta": 8932,
+  "persen_kecukupan": 168.64,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Tambaksari",
+  "penduduk_16_18": 10962,
+  "total_peserta": 4681,
+  "persen_kecukupan": 42.5,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Tenggilis Mejoyo",
+  "penduduk_16_18": 2725,
+  "total_peserta": 1515,
+  "persen_kecukupan": 55.64,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Genteng",
+  "penduduk_16_18": 2851,
+  "total_peserta": 11544,
+  "persen_kecukupan": 404.91,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Wonocolo",
+  "penduduk_16_18": 3821,
+  "total_peserta": 6021,
+  "persen_kecukupan": 157.58,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Sambikerep",
+  "penduduk_16_18": 3276,
+  "total_peserta": 2001,
+  "persen_kecukupan": 61.08,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Benowo",
+  "penduduk_16_18": 3655,
+  "total_peserta": 3344,
+  "persen_kecukupan": 91.49,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Asemrowo",
+  "penduduk_16_18": 2504,
+  "total_peserta": 567,
+  "persen_kecukupan": 22.64,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Bubutan",
+  "penduduk_16_18": 4932,
+  "total_peserta": 2403,
+  "persen_kecukupan": 48.72,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Bulak",
+  "penduduk_16_18": 2438,
+  "total_peserta": 1495,
+  "persen_kecukupan": 61.32,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Dukuh Pakis",
+  "penduduk_16_18": 2792,
+  "total_peserta": 1715,
+  "persen_kecukupan": 61.43,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Wonokromo",
+  "penduduk_16_18": 7967,
+  "total_peserta": 6603,
+  "persen_kecukupan": 82.88,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Sukomanunggal",
+  "penduduk_16_18": 4930,
+  "total_peserta": 3525,
+  "persen_kecukupan": 71.5,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Semampir",
+  "penduduk_16_18": 9606,
+  "total_peserta": 2833,
+  "persen_kecukupan": 29.49,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Tandes",
+  "penduduk_16_18": 4611,
+  "total_peserta": 3480,
+  "persen_kecukupan": 75.47,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Pabean Cantian",
+  "penduduk_16_18": 3752,
+  "total_peserta": 2739,
+  "persen_kecukupan": 73,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Pakal",
+  "penduduk_16_18": 3160,
+  "total_peserta": 1551,
+  "persen_kecukupan": 49.08,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Tegalsari",
+  "penduduk_16_18": 4746,
+  "total_peserta": 1958,
+  "persen_kecukupan": 41.26,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Jambangan",
+  "penduduk_16_18": 2606,
+  "total_peserta": 2566,
+  "persen_kecukupan": 98.47,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Simokerto",
+  "penduduk_16_18": 4576,
+  "total_peserta": 2141,
+  "persen_kecukupan": 46.79,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Gayungan",
+  "penduduk_16_18": 2145,
+  "total_peserta": 4530,
+  "persen_kecukupan": 211.19,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Karang Pilang",
+  "penduduk_16_18": 3647,
+  "total_peserta": 830,
+  "persen_kecukupan": 22.76,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Kenjeran",
+  "penduduk_16_18": 3383,
+  "total_peserta": 9290,
+  "persen_kecukupan": 274.61,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Lakarsantri",
+  "penduduk_16_18": 2627,
+  "total_peserta": 3212,
+  "persen_kecukupan": 122.27,
+  "klasifikasi_kecukupan": "tercukupi",
+  "status_value": 1
+ },
+ {
+  "kecamatan": "Wiyung",
+  "penduduk_16_18": 3629,
+  "total_peserta": 1292,
+  "persen_kecukupan": 35.6,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Sawahan",
+  "penduduk_16_18": 9891,
+  "total_peserta": 8772,
+  "persen_kecukupan": 88.69,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ },
+ {
+  "kecamatan": "Krembangan",
+  "penduduk_16_18": 5658,
+  "total_peserta": 3211,
+  "persen_kecukupan": 56.75,
+  "klasifikasi_kecukupan": "belum tercukupi",
+  "status_value": 0
+ }
+]
