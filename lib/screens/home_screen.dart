@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // Using AppColors from our theme instead of local colors
   // These local references are just for convenience
   Color get primaryColor => AppColors.primaryColor;
-  Color get secondaryColor => AppColors.secondaryColor; 
+  Color get secondaryColor => AppColors.secondaryColor;
   Color get accentColor => AppColors.accentColor;
   Color get backgroundColor => AppColors.backgroundColor;
   Color get cardColor => AppColors.cardColor;
@@ -295,12 +295,9 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: backgroundColor,
       body:
           _isLoading
-              ? Center(
-                  child: CircularProgressIndicator(
-                    color: primaryColor,
-                  ),
-                )
-              : _widgetOptions.elementAt(_selectedIndex),      bottomNavigationBar: Container(
+              ? Center(child: CircularProgressIndicator(color: primaryColor))
+              : _widgetOptions.elementAt(_selectedIndex),
+      bottomNavigationBar: Container(
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -319,9 +316,12 @@ class _HomeScreenState extends State<HomeScreen> {
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: Container(
-                  padding: EdgeInsets.all(8),
+                  padding: EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                    color: _selectedIndex == 0 ? AppColors.primaryColor.withOpacity(0.1) : Colors.transparent,
+                    color:
+                        _selectedIndex == 0
+                            ? AppColors.primaryColor.withOpacity(0.1)
+                            : Colors.transparent,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Icon(Icons.home),
@@ -330,9 +330,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               BottomNavigationBarItem(
                 icon: Container(
-                  padding: EdgeInsets.all(8),
+                  padding: EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                    color: _selectedIndex == 1 ? AppColors.locationIconColor.withOpacity(0.1) : Colors.transparent,
+                    color:
+                        _selectedIndex == 1
+                            ? AppColors.locationIconColor.withOpacity(0.1)
+                            : Colors.transparent,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Icon(Icons.map),
@@ -363,7 +366,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 20),            // Header
+            SizedBox(height: 20), // Header
             Container(
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -401,7 +404,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(height: 8),
                   Text(
                     'Visualisasi Kecukupan Sekolah Menengah',
-                    style: TextStyle(color: Colors.white.withOpacity(0.9), fontSize: 16),
+                    style: TextStyle(
+                      color: Colors.white.withOpacity(0.9),
+                      fontSize: 16,
+                    ),
                   ),
                 ],
               ),
@@ -427,6 +433,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
   Widget _buildDashboardStats() {
     // Hitung jumlah kecamatan yang mencukupi dan tidak mencukupi
     int adequateDistricts = 0;
@@ -455,7 +462,10 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [AppColors.primaryColor.withOpacity(0.03), AppColors.secondaryColor.withOpacity(0.05)],
+          colors: [
+            AppColors.primaryColor.withOpacity(0.03),
+            AppColors.secondaryColor.withOpacity(0.05),
+          ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -528,6 +538,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
   Widget _buildDashboardCard({
     required IconData icon,
     required Color iconColor,
@@ -589,17 +600,25 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
   Widget _buildUserLocationCard() {
     // Simplified status display - only showing one status
     bool isAdequate = _userLocation['adequacy'] == 1;
-    
+
     return Container(
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: isAdequate ? 
-            [AppColors.adequateColor.withOpacity(0.05), AppColors.adequateColor.withOpacity(0.1)] : 
-            [AppColors.inadequateColor.withOpacity(0.05), AppColors.inadequateColor.withOpacity(0.1)],
+          colors:
+              isAdequate
+                  ? [
+                    AppColors.adequateColor.withOpacity(0.05),
+                    AppColors.adequateColor.withOpacity(0.1),
+                  ]
+                  : [
+                    AppColors.inadequateColor.withOpacity(0.05),
+                    AppColors.inadequateColor.withOpacity(0.1),
+                  ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -607,9 +626,10 @@ class _HomeScreenState extends State<HomeScreen> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: isAdequate ? 
-              AppColors.adequateColor.withOpacity(0.1) : 
-              AppColors.inadequateColor.withOpacity(0.1),
+            color:
+                isAdequate
+                    ? AppColors.adequateColor.withOpacity(0.1)
+                    : AppColors.inadequateColor.withOpacity(0.1),
             blurRadius: 15,
             offset: Offset(0, 5),
           ),
@@ -617,7 +637,8 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [          Row(
+        children: [
+          Row(
             children: [
               Container(
                 padding: EdgeInsets.all(8),
@@ -643,7 +664,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           SizedBox(height: 16),
-          
+
           // District name
           Text(
             'Kecamatan ${_userLocation['district'] ?? '-'}',
@@ -655,19 +676,22 @@ class _HomeScreenState extends State<HomeScreen> {
             overflow: TextOverflow.ellipsis,
           ),
           SizedBox(height: 16),
-          
+
           // Single status card with all info
           Container(
-            padding: EdgeInsets.all(16),            decoration: BoxDecoration(
-              gradient: _userLocation['adequacy'] == 1
-                  ? AppColors.adequateGradient
-                  : AppColors.inadequateGradient,
+            padding: EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              gradient:
+                  _userLocation['adequacy'] == 1
+                      ? AppColors.adequateGradient
+                      : AppColors.inadequateGradient,
               borderRadius: BorderRadius.circular(16),
               boxShadow: [
                 BoxShadow(
-                  color: _userLocation['adequacy'] == 1
-                      ? AppColors.adequateColor.withOpacity(0.2)
-                      : AppColors.inadequateColor.withOpacity(0.2),
+                  color:
+                      _userLocation['adequacy'] == 1
+                          ? AppColors.adequateColor.withOpacity(0.2)
+                          : AppColors.inadequateColor.withOpacity(0.2),
                   blurRadius: 8,
                   offset: Offset(0, 3),
                 ),
@@ -676,7 +700,8 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               children: [
                 Container(
-                  padding: EdgeInsets.all(10),                  decoration: BoxDecoration(
+                  padding: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
                     color: Colors.white.withOpacity(0.3),
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -692,7 +717,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [                      Text(
+                    children: [
+                      Text(
                         _userLocation['adequacy'] == 1
                             ? 'Mencukupi'
                             : 'Tidak Mencukupi',
@@ -702,7 +728,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 4),                      Text(
+                      SizedBox(height: 4),
+                      Text(
                         'Jumlah Sekolah: ${_userLocation['schoolStudentCapacity'] != null && _userLocation['schoolStudentCapacity'] < 1000 ? _userLocation['schoolStudentCapacity'] : '-'}',
                         style: TextStyle(
                           color: Colors.white.withOpacity(0.9),
@@ -716,7 +743,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           SizedBox(height: 16),
-          
+
           // Map button
           ElevatedButton(
             onPressed: () {
@@ -727,19 +754,32 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.map, color: _userLocation['adequacy'] == 1 ? AppColors.adequateColor : AppColors.inadequateColor),
+                Icon(
+                  Icons.map,
+                  color:
+                      _userLocation['adequacy'] == 1
+                          ? AppColors.adequateColor
+                          : AppColors.inadequateColor,
+                ),
                 SizedBox(width: 8),
                 Text(
-                  'Lihat di Peta',                  style: TextStyle(
-                    color: _userLocation['adequacy'] == 1 ? AppColors.adequateColor : AppColors.inadequateColor,
+                  'Lihat di Peta',
+                  style: TextStyle(
+                    color:
+                        _userLocation['adequacy'] == 1
+                            ? AppColors.adequateColor
+                            : AppColors.inadequateColor,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ],
-            ),            style: ElevatedButton.styleFrom(
+            ),
+            style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
-              foregroundColor: _userLocation['adequacy'] == 1 ? 
-                AppColors.adequateColor : AppColors.inadequateColor,
+              foregroundColor:
+                  _userLocation['adequacy'] == 1
+                      ? AppColors.adequateColor
+                      : AppColors.inadequateColor,
               minimumSize: Size(double.infinity, 48),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(16),
@@ -751,6 +791,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
   Widget _buildDistrictsList() {
     return Container(
       padding: EdgeInsets.all(20),
@@ -783,7 +824,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.bold,
                   color: textColor,
                 ),
-              ),              TextButton(
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -799,7 +841,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextButton.styleFrom(
                   backgroundColor: AppColors.primaryColor.withOpacity(0.1),
                   padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
                 ),
                 child: Text(
                   'Lihat Semua',
@@ -839,9 +883,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
   Widget _buildSchoolsList() {
     return Container(
-      padding: EdgeInsets.all(20),
+      padding: EdgeInsets.all(0),
       decoration: BoxDecoration(
         color: AppColors.cardColor,
         gradient: LinearGradient(
@@ -861,39 +906,45 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                'Sekolah',
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                  color: textColor,
-                ),
-              ),              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => SearchScreen(schools: _schools),
-                    ),
-                  );
-                },
-                style: TextButton.styleFrom(
-                  backgroundColor: AppColors.schoolIconColor.withOpacity(0.1),
-                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                ),
-                child: Text(
-                  'Lihat Semua',
+          Padding(
+            padding: EdgeInsets.only(right: 20, left: 20, top: 20),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Sekolah',
                   style: TextStyle(
-                    color: AppColors.schoolIconColor,
-                    fontWeight: FontWeight.w600,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: textColor,
                   ),
                 ),
-              ),
-            ],
+                TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SearchScreen(schools: _schools),
+                      ),
+                    );
+                  },
+                  style: TextButton.styleFrom(
+                    backgroundColor: AppColors.schoolIconColor.withOpacity(0.1),
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                  ),
+                  child: Text(
+                    'Lihat Semua',
+                    style: TextStyle(
+                      color: AppColors.schoolIconColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
           SizedBox(height: 12),
           Column(

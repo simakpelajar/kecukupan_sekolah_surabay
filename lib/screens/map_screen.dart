@@ -33,7 +33,7 @@ class _MapScreenState extends State<MapScreen> {
   bool _showFilterPanel = false;
   bool _showLegend = true; // Control the visibility of the legend
   late Map<String, dynamic> _userLocation;
-  
+
   @override
   void initState() {
     super.initState();
@@ -61,7 +61,7 @@ class _MapScreenState extends State<MapScreen> {
                 urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                 userAgentPackageName: 'com.example.app',
               ),
-              
+
               // Districts polygons
               if (_showDistricts) ...[
                 PolygonLayer(polygons: _buildDistrictPolygons()),
@@ -69,11 +69,14 @@ class _MapScreenState extends State<MapScreen> {
               ],
 
               // School markers
-              if (_showSchools) MarkerLayer(markers: _buildSchoolMarkers()),              // User location marker
+              if (_showSchools)
+                MarkerLayer(
+                  markers: _buildSchoolMarkers(),
+                ), // User location marker
               MarkerLayer(
                 markers: [
-                  if (_userLocation.isNotEmpty && 
-                      _userLocation['latitude'] != null && 
+                  if (_userLocation.isNotEmpty &&
+                      _userLocation['latitude'] != null &&
                       _userLocation['longitude'] != null)
                     Marker(
                       width: 36.0,
@@ -82,31 +85,34 @@ class _MapScreenState extends State<MapScreen> {
                         _userLocation['latitude'],
                         _userLocation['longitude'],
                       ),
-                      builder: (ctx) => Container(
-                        child: Icon(
-                          Icons.my_location,
-                          color: Colors.white,
-                          size: 24,
-                        ),                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [
-                              AppColors.locationIconColor, 
-                              AppColors.locationIconColor.withOpacity(0.7)
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                          ),
-                          shape: BoxShape.circle,
-                          boxShadow: [
-                            BoxShadow(
-                              color: AppColors.locationIconColor.withOpacity(0.5),
-                              spreadRadius: 2,
-                              blurRadius: 8,
-                              offset: Offset(0, 3),
+                      builder:
+                          (ctx) => Container(
+                            child: Icon(
+                              Icons.my_location,
+                              color: Colors.white,
+                              size: 24,
                             ),
-                          ],
-                        ),
-                      ),
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [
+                                  AppColors.locationIconColor,
+                                  AppColors.locationIconColor.withOpacity(0.7),
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                              shape: BoxShape.circle,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: AppColors.locationIconColor
+                                      .withOpacity(0.5),
+                                  spreadRadius: 2,
+                                  blurRadius: 8,
+                                  offset: Offset(0, 3),
+                                ),
+                              ],
+                            ),
+                          ),
                     ),
                 ],
               ),
@@ -141,11 +147,11 @@ class _MapScreenState extends State<MapScreen> {
                 _showLegend = value;
               });
             },
-          ),          // Legend
+          ), // Legend
           if (_showLegend)
             Positioned(
-              bottom: 20,
-              right: 20,
+              top: 40,
+              left: 20,
               child: Container(
                 padding: EdgeInsets.all(16),
                 decoration: BoxDecoration(
@@ -167,7 +173,8 @@ class _MapScreenState extends State<MapScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
-                  children: [                    Row(
+                  children: [
+                    Row(
                       children: [
                         Icon(
                           Icons.info,
@@ -187,19 +194,32 @@ class _MapScreenState extends State<MapScreen> {
                     ),
                     SizedBox(height: 12),
                     _buildLegendItem(
-                      color: AppColors.adequateColor,
-                      label: 'Zona Mencukupi',
+                      colorbox: AppColors.adequateColor,
+                      label: 'Mencukupi',
                     ),
                     SizedBox(height: 6),
                     _buildLegendItem(
-                      color: AppColors.inadequateColor,
-                      label: 'Zona Tidak Mencukupi',
-                    ),                    SizedBox(height: 6),
-                    _buildLegendItem(icon: Icons.school, color: AppColors.smaColor, label: 'SMA'),
+                      colorbox: AppColors.inadequateColor,
+                      label: 'Tidak Mencukupi',
+                    ),
                     SizedBox(height: 6),
-                    _buildLegendItem(icon: Icons.engineering, color: AppColors.smkColor, label: 'SMK'),
+                    _buildLegendItem(
+                      icon: Icons.school,
+                      color: AppColors.smaColor,
+                      label: 'SMA',
+                    ),
                     SizedBox(height: 6),
-                    _buildLegendItem(icon: Icons.menu_book, color: AppColors.maColor, label: 'MA'),
+                    _buildLegendItem(
+                      icon: Icons.engineering,
+                      color: AppColors.smkColor,
+                      label: 'SMK',
+                    ),
+                    SizedBox(height: 6),
+                    _buildLegendItem(
+                      icon: Icons.menu_book,
+                      color: AppColors.maColor,
+                      label: 'MA',
+                    ),
                     SizedBox(height: 6),
                     _buildLegendItem(
                       icon: Icons.my_location,
@@ -218,14 +238,18 @@ class _MapScreenState extends State<MapScreen> {
             child: Center(
               child: ElevatedButton.icon(
                 onPressed: _goToUserLocation,
-                icon: Icon(Icons.my_location),
-                label: Text('Lokasi Saya Sekarang'),                style: ElevatedButton.styleFrom(
+                icon: Icon(
+                  Icons.my_location,
+                  color: Colors.white, // Menetapkan warna putih
+                ),
+                label: Text('Lokasi Saya Sekarang',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),),
+                style: ElevatedButton.styleFrom(
                   backgroundColor: AppColors.locationIconColor,
                   foregroundColor: Colors.white,
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 24,
-                    vertical: 14,
-                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
@@ -274,30 +298,32 @@ class _MapScreenState extends State<MapScreen> {
             width: 48.0, // Larger size for better visibility
             height: 48.0,
             point: LatLng(school.latitude, school.longitude),
-            builder: (ctx) => GestureDetector(
-              onTap: () {
-                _showSchoolInfo(school);
-              },
-              child: Container(                decoration: BoxDecoration(
-                  color: AppColors.getSchoolLevelColor(school.level),
-                  shape: BoxShape.circle,
-                  border: Border.all(color: Colors.white, width: 2),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.3),
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 2),
+            builder:
+                (ctx) => GestureDetector(
+                  onTap: () {
+                    _showSchoolInfo(school);
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: AppColors.getSchoolLevelColor(school.level),
+                      shape: BoxShape.circle,
+                      border: Border.all(color: Colors.white, width: 2),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.3),
+                          spreadRadius: 2,
+                          blurRadius: 5,
+                          offset: Offset(0, 2),
+                        ),
+                      ],
                     ),
-                  ],
+                    child: Icon(
+                      Icons.school,
+                      color: Colors.white,
+                      size: 28, // Larger icon
+                    ),
+                  ),
                 ),
-                child: Icon(
-                  Icons.school,
-                  color: Colors.white,
-                  size: 28, // Larger icon
-                ),
-              ),
-            ),
           );
         })
         .where((marker) => marker != null)
@@ -348,10 +374,15 @@ class _MapScreenState extends State<MapScreen> {
           totalPolygons++;
           polygons.add(
             Polygon(
-              points: polygonPoints,              color:
+              points: polygonPoints,
+              color:
                   district.adequacy == 1
-                      ? AppColors.adequateColor.withOpacity(0.3) // Adequate zones
-                      : AppColors.inadequateColor.withOpacity(0.3), // Inadequate zones
+                      ? AppColors.adequateColor.withOpacity(
+                        0.3,
+                      ) // Adequate zones
+                      : AppColors.inadequateColor.withOpacity(
+                        0.3,
+                      ), // Inadequate zones
               borderColor: Colors.black,
               borderStrokeWidth: 2.0, // Thick border for good visibility
               isFilled: true, // Ensure polygons are filled
@@ -370,7 +401,7 @@ class _MapScreenState extends State<MapScreen> {
     );
     return polygons;
   }
-  
+
   List<Marker> _buildDistrictLabels() {
     List<Marker> labels = [];
 
@@ -410,36 +441,41 @@ class _MapScreenState extends State<MapScreen> {
               width: 100.0,
               height: 40.0,
               point: LatLng(centerLat, centerLng),
-              builder: (ctx) => Container(
-                alignment: Alignment.center,                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.85),
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(
-                    color: district.adequacy == 1 ? 
-                      AppColors.adequateColor.withOpacity(0.7) : 
-                      AppColors.inadequateColor.withOpacity(0.7), 
-                    width: 1.5
-                  ),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.15),
-                      blurRadius: 4,
-                      offset: Offset(0, 2),
+              builder:
+                  (ctx) => Container(
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.85),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(
+                        color:
+                            district.adequacy == 1
+                                ? AppColors.adequateColor.withOpacity(0.7)
+                                : AppColors.inadequateColor.withOpacity(0.7),
+                        width: 1.5,
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.15),
+                          blurRadius: 4,
+                          offset: Offset(0, 2),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
-                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                child: Text(
-                  district.name,
-                  textAlign: TextAlign.center,                  style: TextStyle(
-                    color: district.adequacy == 1 ? 
-                      AppColors.adequateColor : 
-                      AppColors.inadequateColor,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 12,
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                    child: Text(
+                      district.name,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color:
+                            district.adequacy == 1
+                                ? AppColors.adequateColor
+                                : AppColors.inadequateColor,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 12,
+                      ),
+                    ),
                   ),
-                ),
-              ),
             ),
           );
         }
@@ -451,7 +487,8 @@ class _MapScreenState extends State<MapScreen> {
 
   void _showSchoolInfo(School school) {
     showModalBottomSheet(
-      context: context,      backgroundColor: Colors.white,
+      context: context,
+      backgroundColor: Colors.white,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
@@ -461,21 +498,26 @@ class _MapScreenState extends State<MapScreen> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [              Row(
+            children: [
+              Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
                     width: 50,
                     height: 50,
                     decoration: BoxDecoration(
-                      color: AppColors.getSchoolLevelColor(school.level).withOpacity(0.1),
+                      color: AppColors.getSchoolLevelColor(
+                        school.level,
+                      ).withOpacity(0.1),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Center(
                       child: Icon(
-                        school.level.contains('SMK') ? Icons.engineering :
-                        school.level.contains('MA') ? Icons.menu_book : 
-                        Icons.school,
+                        school.level.contains('SMK')
+                            ? Icons.engineering
+                            : school.level.contains('MA')
+                            ? Icons.menu_book
+                            : Icons.school,
                         color: AppColors.getSchoolLevelColor(school.level),
                         size: 28,
                       ),
@@ -488,32 +530,51 @@ class _MapScreenState extends State<MapScreen> {
                       children: [
                         Text(
                           school.name,
-                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: AppColors.textColor),
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: AppColors.textColor,
+                          ),
                         ),
                         SizedBox(height: 6),
                         Row(
                           children: [
                             Container(
-                              padding: EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 4,
+                              ),
                               decoration: BoxDecoration(
-                                color: AppColors.getSchoolLevelColor(school.level),
+                                color: AppColors.getSchoolLevelColor(
+                                  school.level,
+                                ),
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Text(
                                 school.level,
-                                style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                             SizedBox(width: 8),
                             Container(
-                              padding: EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 4,
+                              ),
                               decoration: BoxDecoration(
                                 color: AppColors.infoIconColor.withOpacity(0.8),
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Text(
                                 "NPSN: ${school.npsn}",
-                                style: TextStyle(color: Colors.white, fontSize: 12),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 12,
+                                ),
                               ),
                             ),
                           ],
@@ -522,7 +583,8 @@ class _MapScreenState extends State<MapScreen> {
                     ),
                   ),
                 ],
-              ),              SizedBox(height: 20),
+              ),
+              SizedBox(height: 20),
               Container(
                 padding: EdgeInsets.all(16),
                 decoration: BoxDecoration(
@@ -539,7 +601,11 @@ class _MapScreenState extends State<MapScreen> {
                             color: AppColors.locationIconColor.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(10),
                           ),
-                          child: Icon(Icons.location_on, size: 16, color: AppColors.locationIconColor),
+                          child: Icon(
+                            Icons.location_on,
+                            size: 16,
+                            color: AppColors.locationIconColor,
+                          ),
                         ),
                         SizedBox(width: 12),
                         Expanded(
@@ -563,7 +629,11 @@ class _MapScreenState extends State<MapScreen> {
                             color: AppColors.peopleIconColor.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(10),
                           ),
-                          child: Icon(Icons.people, size: 16, color: AppColors.peopleIconColor),
+                          child: Icon(
+                            Icons.people,
+                            size: 16,
+                            color: AppColors.peopleIconColor,
+                          ),
                         ),
                         SizedBox(width: 12),
                         Expanded(
@@ -590,11 +660,14 @@ class _MapScreenState extends State<MapScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.close),
-                    SizedBox(width: 8),
-                    Text('Tutup'),
+                    Text('Tutup',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
                   ],
-                ),                style: ElevatedButton.styleFrom(
+                ),
+                style: ElevatedButton.styleFrom(
                   backgroundColor: AppColors.getSchoolLevelColor(school.level),
                   foregroundColor: Colors.white,
                   minimumSize: Size(double.infinity, 50),
@@ -609,23 +682,28 @@ class _MapScreenState extends State<MapScreen> {
         );
       },
     );
-  }  void _goToUserLocation() async {
+  }
+
+  void _goToUserLocation() async {
     try {
       // Selalu coba dapatkan lokasi baru ketika tombol ditekan
       final locationService = Provider.of<LocationService>(
         context,
         listen: false,
       );
-      
+
       // Tampilkan indikator loading
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Row(
             children: [
               SizedBox(
-                height: 20, 
-                width: 20, 
-                child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white)
+                height: 20,
+                width: 20,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2,
+                  color: Colors.white,
+                ),
               ),
               SizedBox(width: 16),
               Text('Mencari lokasi Anda...'),
@@ -634,27 +712,26 @@ class _MapScreenState extends State<MapScreen> {
           duration: Duration(seconds: 2),
         ),
       );
-      
+
       // Dapatkan lokasi saat ini
       final position = await locationService.getCurrentLocation();
-      
+
       // Pindah peta ke lokasi pengguna
-      _mapController.move(
-        LatLng(position.latitude, position.longitude),
-        15.0,
-      );
-      
+      _mapController.move(LatLng(position.latitude, position.longitude), 15.0);
+
       // Update state dengan menambahkan marker lokasi baru
       setState(() {
         // Update _userLocation dengan lokasi yang baru didapatkan
         _userLocation['latitude'] = position.latitude;
         _userLocation['longitude'] = position.longitude;
       });
-      
+
       // Tampilkan konfirmasi
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Lokasi ditemukan: ${position.latitude.toStringAsFixed(4)}, ${position.longitude.toStringAsFixed(4)}'),
+          content: Text(
+            'Lokasi ditemukan: ${position.latitude.toStringAsFixed(4)}, ${position.longitude.toStringAsFixed(4)}',
+          ),
           backgroundColor: Color(0xFF06B6D4),
         ),
       );
@@ -673,6 +750,7 @@ class _MapScreenState extends State<MapScreen> {
   // Helper method to build legend items
   Widget _buildLegendItem({
     Color? color,
+    Color? colorbox,
     IconData? icon,
     required String label,
   }) {
@@ -681,12 +759,12 @@ class _MapScreenState extends State<MapScreen> {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          if (color != null)
+          if (colorbox != null)
             Container(
               width: 20,
               height: 20,
               decoration: BoxDecoration(
-                color: color,
+                color: colorbox,
                 border: Border.all(color: Colors.black, width: 1.5),
                 borderRadius: BorderRadius.circular(4),
                 boxShadow: [

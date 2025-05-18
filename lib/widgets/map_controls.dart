@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kecukupan_sekolah_surabaya/theme/app_colors.dart';
 
 class MapControls extends StatelessWidget {
   final bool showFilterPanel;
@@ -38,7 +39,7 @@ class MapControls extends StatelessWidget {
                 icon: Icons.info,
                 onPressed: onFilterToggle,
               ),
-              SizedBox(height: 8),
+              SizedBox(height: 16),
               _buildMapControlButton(
                 icon: Icons.search,
                 onPressed: onSearchTap,
@@ -46,17 +47,17 @@ class MapControls extends StatelessWidget {
             ],
           ),
         ),
-        
+
         // Filter Panel
         if (showFilterPanel)
           Positioned(
             top: 100,
-            right: 16,
+            right: 8,
             child: Container(
-              width: 200,
+              width: 180,
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: Color(0xFF1E293B),
+                color: Colors.white.withOpacity(0.95),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
@@ -74,23 +75,24 @@ class MapControls extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
+                      color: AppColors.textColor,
                     ),
                   ),
                   SizedBox(height: 12),
                   _buildFilterSwitch(
-                    label: 'Tampilkan Sekolah',
+                    label: 'Sekolah',
                     value: showSchools,
                     onChanged: onShowSchoolsChanged,
                   ),
                   SizedBox(height: 8),
                   _buildFilterSwitch(
-                    label: 'Tampilkan Kecamatan',
+                    label: 'Kecamatan',
                     value: showDistricts,
                     onChanged: onShowDistrictsChanged,
                   ),
                   SizedBox(height: 8),
                   _buildFilterSwitch(
-                    label: 'Tampilkan Legenda',
+                    label: 'Legenda',
                     value: showLegend,
                     onChanged: onShowLegendChanged,
                   ),
@@ -108,13 +110,11 @@ class MapControls extends StatelessWidget {
   }) {
     return Container(
       decoration: BoxDecoration(
-        color: Color(0xFF1E293B).withOpacity(0.9),
+        color: Color.fromARGB(255, 255, 255, 255).withOpacity(0.9),
         shape: BoxShape.circle,
-        border: Border.all(color: Color(0xFF334155)),
       ),
       child: IconButton(
-        icon: Icon(icon),
-        color: Colors.white,
+        icon: Icon(icon, color: const Color.fromARGB(255, 91, 91, 91)),
         onPressed: onPressed,
       ),
     );
@@ -128,7 +128,7 @@ class MapControls extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(label),
+        Text(label, style: TextStyle(color: AppColors.textColor)),
         Switch(
           value: value,
           onChanged: onChanged,

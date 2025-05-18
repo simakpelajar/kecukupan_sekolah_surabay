@@ -47,11 +47,12 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(      appBar: AppBar(
+    return Scaffold(appBar: AppBar(
         title: Text(
           'Cari Sekolah', 
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
         backgroundColor: AppColors.primaryColor,
@@ -63,7 +64,10 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
         ),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back),
+          icon: Icon(
+            Icons.arrow_back,
+            color: Colors.white,
+            ),
           onPressed: () => Navigator.pop(context),
         ),
       ),
@@ -76,13 +80,13 @@ class _SearchScreenState extends State<SearchScreen> {
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
-                    color: AppColors.schoolIconColor.withOpacity(0.1),
+                    color: AppColors.primaryColor.withOpacity(0.1),
                     blurRadius: 10,
                     offset: Offset(0, 4),
                   ),
                 ],
                 border: Border.all(
-                  color: AppColors.schoolIconColor.withOpacity(0.2),
+                  color: AppColors.primaryColor.withOpacity(0.2),
                   width: 1.5,
                 ),
               ),
@@ -94,7 +98,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 decoration: InputDecoration(
                   hintText: 'Cari sekolah...',
                   hintStyle: TextStyle(color: AppColors.textSecondaryColor),
-                  prefixIcon: Icon(Icons.search, color: AppColors.schoolIconColor),
+                  prefixIcon: Icon(Icons.search, color: AppColors.primaryColor),
                   filled: false,
                   contentPadding: EdgeInsets.symmetric(vertical: 16, horizontal: 16),
                   border: OutlineInputBorder(
@@ -141,7 +145,8 @@ class _SearchScreenState extends State<SearchScreen> {
                 : ListView.builder(
                     itemCount: _filteredSchools.length,
                     itemBuilder: (context, index) {
-                      final school = _filteredSchools[index];                      return SchoolItem(
+                      final school = _filteredSchools[index];    
+                      return SchoolItem(
                         school: school,
                         onTap: () {
                           Navigator.push(

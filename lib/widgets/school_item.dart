@@ -18,7 +18,7 @@ class SchoolItem extends StatelessWidget {
     final Color levelColor = AppColors.getSchoolLevelColor(school.level);
     
     return Container(
-      margin: EdgeInsets.only(bottom: 12),
+      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
         color: AppColors.cardColor,
         borderRadius: BorderRadius.circular(16),
@@ -36,12 +36,12 @@ class SchoolItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           onTap: onTap,
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 14, horizontal: 16),
+            padding: EdgeInsets.symmetric(vertical: 14, horizontal: 14),
             child: Row(
               children: [
                 Container(
-                  width: 45,
-                  height: 45,
+                  width: 35,
+                  height: 35,
                   decoration: BoxDecoration(
                     color: levelColor.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(12),
@@ -50,11 +50,11 @@ class SchoolItem extends StatelessWidget {
                     child: Icon(
                       _getSchoolIcon(school.level),
                       color: levelColor,
-                      size: 24,
+                      size: 18,
                     ),
                   ),
                 ),
-                SizedBox(width: 16),
+                SizedBox(width: 6),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -75,9 +75,9 @@ class SchoolItem extends StatelessWidget {
                           Icon(
                             Icons.location_on,
                             color: AppColors.textSecondaryColor,
-                            size: 12,
+                            size: 10,
                           ),
-                          SizedBox(width: 4),
+                          SizedBox(width: 2),
                           Text(
                             "Kecamatan ${school.district}",
                             style: TextStyle(
@@ -91,7 +91,7 @@ class SchoolItem extends StatelessWidget {
                             color: AppColors.textSecondaryColor,
                             size: 12,
                           ),
-                          SizedBox(width: 4),
+                          SizedBox(width: 2),
                           Text(
                             "${school.studentCount}",
                             style: TextStyle(
