@@ -17,6 +17,10 @@ class StatusBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      constraints: BoxConstraints(
+        minWidth: 140, 
+        minHeight: 36,
+      ),
       decoration: BoxDecoration(
         gradient: isAdequate ? AppColors.adequateGradient : AppColors.inadequateGradient,
         borderRadius: BorderRadius.circular(20),
@@ -30,6 +34,7 @@ class StatusBadge extends StatelessWidget {
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(
             isAdequate ? Icons.check_circle : Icons.cancel_outlined,
