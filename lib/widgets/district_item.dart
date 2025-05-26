@@ -85,7 +85,7 @@ class DistrictItem extends StatelessWidget {
                     ),
                   ],
                 ),
-                StatusBadge(isAdequate: isAdequate),
+                 StatusBadge(isAdequate: isAdequate),
               ],
             ),
           ),

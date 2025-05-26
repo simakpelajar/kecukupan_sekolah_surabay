@@ -461,19 +461,28 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
+         color: AppColors.cardColor, 
         gradient: LinearGradient(
-          colors: [
-            AppColors.primaryColor.withOpacity(0.03),
-            AppColors.secondaryColor.withOpacity(0.05),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        color: AppColors.cardColor,
-        borderRadius: BorderRadius.circular(20),
+        colors: [Colors.white, AppColors.darkCardColor.withOpacity(0.03)],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ), 
+        // gradient: LinearGradient(
+        //   colors: [
+        //       //Color(0xFFF3F4F6),
+        //     AppColors.primaryColor.withOpacity(0.03),
+        //     AppColors.secondaryColor.withOpacity(0.05),
+        //   ],
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        // ),
+        // color: AppColors.cardColor,
+        // borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: AppColors.primaryColor.withOpacity(0.1),
+            color: //Colors.black.withOpacity(0.05),
+            AppColors.darkCardColor.withOpacity(0.1),
+           // AppColors.primaryColor.withOpacity(0.1),
             blurRadius: 15,
             offset: Offset(0, 5),
           ),
@@ -495,20 +504,22 @@ class _HomeScreenState extends State<HomeScreen> {
           // Status Kecukupan
           Row(
             children: [
-              _buildDashboardCard(
+              Expanded(child: _buildDashboardCard(
                 icon: Icons.check_circle,
-                iconColor: secondaryColor,
+                iconColor: AppColors.adequateColor,
                 title: 'Mencukupi',
                 value: '$adequateDistricts',
                 subtitle: 'Kecamatan',
+              ), 
               ),
               SizedBox(width: 12),
-              _buildDashboardCard(
+              Expanded(child: _buildDashboardCard(
                 icon: Icons.cancel,
-                iconColor: accentColor,
+                iconColor: AppColors.inadequateColor,
                 title: 'Tidak Mencukupi',
                 value: '$inadequateDistricts',
                 subtitle: 'Kecamatan',
+              ), 
               ),
             ],
           ),
@@ -517,20 +528,23 @@ class _HomeScreenState extends State<HomeScreen> {
           // Statistik Siswa
           Row(
             children: [
-              _buildDashboardCard(
+              Expanded(child: _buildDashboardCard(
                 icon: Icons.school,
                 iconColor: primaryColor,
                 title: 'SMA/MA',
                 value: '${totalSMAStudents.toString()}',
                 subtitle: 'Siswa',
+                ), 
               ),
               SizedBox(width: 12),
-              _buildDashboardCard(
+              Expanded(
+                child: _buildDashboardCard(
                 icon: Icons.engineering,
                 iconColor: Color(0xFF6366F1),
                 title: 'SMK',
                 value: '${totalSMKStudents.toString()}',
                 subtitle: 'Siswa',
+                ), 
               ),
             ],
           ),
@@ -546,8 +560,7 @@ class _HomeScreenState extends State<HomeScreen> {
     required String value,
     required String subtitle,
   }) {
-    return Expanded(
-      child: Container(
+    return Container(
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: AppColors.cardColor,
@@ -567,7 +580,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: iconColor.withOpacity(0.1),
-                borderRadius: BorderRadius.circular(12),
+                borderRadius: BorderRadius.circular(16),
               ),
               child: Icon(icon, color: iconColor, size: 24),
             ),
@@ -597,7 +610,6 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ],
         ),
-      ),
     );
   }
 
@@ -608,22 +620,28 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
+         color: AppColors.cardColor, 
         gradient: LinearGradient(
-          colors:
-              isAdequate
-                  ? [
-                    AppColors.adequateColor.withOpacity(0.05),
-                    AppColors.adequateColor.withOpacity(0.1),
-                  ]
-                  : [
-                    AppColors.inadequateColor.withOpacity(0.05),
-                    AppColors.inadequateColor.withOpacity(0.1),
-                  ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        color: AppColors.cardColor,
-        borderRadius: BorderRadius.circular(20),
+        colors: [Colors.white, AppColors.darkCardColor.withOpacity(0.03)],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ),
+        // gradient: LinearGradient(
+        //   colors:
+        //       isAdequate
+        //           ? [
+        //             AppColors.adequateColor.withOpacity(0.05),
+        //             AppColors.adequateColor.withOpacity(0.1),
+        //           ]
+        //           : [
+        //             AppColors.inadequateColor.withOpacity(0.05),
+        //             AppColors.inadequateColor.withOpacity(0.1),
+        //           ],
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        // ),
+        // color: AppColors.cardColor,
+        // borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
             color:
@@ -719,6 +737,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
+
                         _userLocation['adequacy'] == 1
                             ? 'Mencukupi'
                             : 'Tidak Mencukupi',
@@ -796,16 +815,21 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.cardColor,
+        color: AppColors.cardColor, 
         gradient: LinearGradient(
-          colors: [Colors.white, AppColors.secondaryColor.withOpacity(0.03)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        colors: [Colors.white, AppColors.darkCardColor.withOpacity(0.03)],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ),
+        // gradient: LinearGradient(
+        //   colors: [Colors.white, AppColors.secondaryColor.withOpacity(0.03)],
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        // ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: AppColors.primaryColor.withOpacity(0.08),
+            color: AppColors.darkCardColor.withOpacity(0.1),
             blurRadius: 15,
             offset: Offset(0, 5),
           ),
@@ -888,16 +912,20 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: EdgeInsets.all(0),
       decoration: BoxDecoration(
-        color: AppColors.cardColor,
-        gradient: LinearGradient(
-          colors: [Colors.white, AppColors.accentColor.withOpacity(0.03)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+      color: AppColors.cardColor, 
+      gradient: LinearGradient(
+        colors: [Colors.white, AppColors.darkCardColor.withOpacity(0.03)],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+        // gradient: LinearGradient(
+        //   colors: [Colors.white, AppColors.accentColor.withOpacity(0.03)],
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        ),// ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: AppColors.accentColor.withOpacity(0.08),
+            color: AppColors.darkCardColor.withOpacity(0.1),
             blurRadius: 15,
             offset: Offset(0, 5),
           ),
